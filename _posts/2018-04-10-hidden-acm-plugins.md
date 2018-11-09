@@ -16,7 +16,7 @@ I made an interesting discovery when I did a _Find In_ operation in App Designer
 
 To get the implementation code of a “hidden” ACM Plugin, you will need to open App Designer and go to Edit > Find In&#8230;.  If you search for the ACM Plugin App Class name (Ex: PTScriptExecutor), you will get a result that points to the PTEM_CONFIG:PTScriptExecutor App Class.  However, when you click the reference to open the App Class PeopleCode, you are greeted with a blank class.  The trick is to check the _Save PeopleCode to file_ checkbox when performing the _Find In_ search.
 
-[<img class="alignnone size-full wp-image-1343" src="/assets/images/2018/03/Find_In.png" alt="Find In..." width="1215" height="824" srcset="/assets/images/2018/03/Find_In.png 1215w, /assets/images/2018/03/Find_In-300x203.png 300w, /assets/images/2018/03/Find_In-768x521.png 768w, /assets/images/2018/03/Find_In-1024x694.png 1024w, /assets/images/2018/03/Find_In-560x380.png 560w" sizes="(max-width: 1215px) 100vw, 1215px" />](/assets/images/2018/03/Find_In.png)
+[<img src="/assets/images/2018/03/Find_In.png" alt="Find In..." />](/assets/images/2018/03/Find_In.png)
 
 This will save the entire ACM Plugin App Class PeopleCode program to the file that you specify.  From here you can copy the code into an App Class within your own PTEM_CONFIG* App Package to make use of the plugin.
 
