@@ -17,7 +17,8 @@ This project demonstrates TOTP validation in the context of a two-factor authent
 
 Login as a privileged user and navigate to `Main Menu > PSM Projects > 2FA Enrollment`.  You will be presented with the following page:
 
-![2FA Enrollment](/assets/images/2018/03/2FA_Enrollment.png)
+[1]: /assets/images/2018/03/2FA_Enrollment.png
+[![2FA Enrollment][1]][1]
 
 On this page, the user can configure a mobile authenticator application by [scanning a QR code](/2fa/generating-qr-codes-in-peoplesoft/).  Once configured, the mobile device will generate TOTPs for the user.  The user can input a generated TOTP into the input box to verify that their application is generating proper TOTPs.  When the user submits the TOTP, the server validates the submitted TOTP with a JavaScript-based algorithm.
 
