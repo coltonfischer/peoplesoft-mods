@@ -22,7 +22,7 @@ Login as a privileged user and navigate to `Main Menu > PSM Projects > 2FA Enro
 
 On this page, the user can configure a mobile authenticator application by [scanning a QR code](/2fa/generating-qr-codes-in-peoplesoft/).  Once configured, the mobile device will generate TOTPs for the user.  The user can input a generated TOTP into the input box to verify that their application is generating proper TOTPs.  When the user submits the TOTP, the server validates the submitted TOTP with a JavaScript-based algorithm.
 
-Since JavaScript is doing all of the leg work there is not really much to see PeopleCode-wise, but below is the PeopleCode that handles the TOTP validation.  The real magic happens in the _PSM_SHA_ and _PSM_TOTP_ Html Objects.
+Since JavaScript is doing all of the leg work there is not really much to see PeopleCode-wise, but below is the PeopleCode that handles the TOTP validation.  The real magic happens in the _PSM_SHA_ and _PSM_TOTP_ HTML Objects.
 
 
 * * *
