@@ -8,7 +8,7 @@ tags:
   - JavaScript
   - App Designer
   - Branding Framework
-  - HTML Objects
+  - HTML
 categories:
   - Tips and Tricks
 ---

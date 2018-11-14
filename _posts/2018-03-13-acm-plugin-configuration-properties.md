@@ -6,7 +6,6 @@ guid: http://www.peoplesoftmods.com/?p=1348
 permalink: /psadmin/acm-plugin-configuration-properties/
 tags:
   - ACM
-  - HTML Objects
   - Metadata API
   - Branding Framework
 categories:
