@@ -18,9 +18,14 @@ Branding framework provides the ability to define your own custom User Attribute
 that allows for user preference-based theme assignments. This post is a continuation of my previous two posts that describe how Personalization Options can 
 be leverage to provide your users with a preference-based experience.  
 
-The end goal functionality is to allow end-users to specify a theme (Classic banner, Fluid banner, red, blue, etc.) that they prefer and for the system to 
-conditionally assign the theme based on the user’s preferred theme. I covered how to enable the theme selection drop down in My Preferences so that your users 
-to select their preferred theme in my previous post. All that is needed now is some Application Class PeopleCode and a little configuration.
+The end goal functionality is to allow end-users to specify a theme (Tangerine, Fluid, Red, Blue, etc.) that they prefer and for the system to 
+conditionally assign the theme based on the user’s preferred theme. In [my previous post](/ux/creating-personalization-options/) I covered how to enable 
+the _Portal Branding Theme_ selection drop down on the end-user _My Preferences_ page:
+
+[5]: /assets/images/2018/11/My_Preferences2.png
+[![My Preferences][5]][5]
+
+All that is needed now is some Application Class PeopleCode and a little bit of configuration to connect the user preference selection to a custom User Attribute.
 
 ### The Code
 
