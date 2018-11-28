@@ -58,9 +58,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : feed # blank (default) uses feed.xml
-feed:
-  path                   : feed # blank (default) uses feed.xml
+  path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
 search_full_content      : true # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -229,6 +227,7 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-redirect-from
 
 # mimic GitHub Pages with --safe
 whitelist:
