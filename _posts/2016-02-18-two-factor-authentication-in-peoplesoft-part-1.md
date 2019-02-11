@@ -2,13 +2,13 @@
 id: 27
 title: Two-Factor Authentication in PeopleSoft
 date: 2016-02-18T05:12:26+00:00
-guid: http://www.peoplesoftmods.com/?p=27
+guid: https://www.peoplesoftmods.com/?p=27
 permalink: /2fa/two-factor-authentication-in-peoplesoft-part-1/
 categories:
   - Two-Factor Authentication
 ---
 <p style="text-align: justify;">
-  This post is to document my two-factor authentication (2FA) project that I have implemented in PeopleSoft.  This project was done because there was a desire to add an additional layer of security to the application without having to worry about the costs associated with a vender-supplied 2FA solution.  A customization like this would seem to be somewhat infeasible to build in-house, but leveraging some of Oracle’s delivered functionality coupled with a well thought-out design, made this project&#8217;s implementation quite simple.  This is relatively speaking of course, after all, this project does add an entire new step to the delivered PeopleSoft authentication process. I am only going to talk about the requirements, specifications, and design in this post as well as provide a short demo. I am writing a tutorial <a href="http://www.peoplesoftmods.com/uncategorized/how-to-set-up-two-factor-authentication-in-peoplesoft/" target="_blank">here</a> that shows the steps on how to implement this.
+  This post is to document my two-factor authentication (2FA) project that I have implemented in PeopleSoft.  This project was done because there was a desire to add an additional layer of security to the application without having to worry about the costs associated with a vender-supplied 2FA solution.  A customization like this would seem to be somewhat infeasible to build in-house, but leveraging some of Oracle’s delivered functionality coupled with a well thought-out design, made this project&#8217;s implementation quite simple.  This is relatively speaking of course, after all, this project does add an entire new step to the delivered PeopleSoft authentication process. I am only going to talk about the requirements, specifications, and design in this post as well as provide a short demo. I am writing a tutorial <a href="https://www.peoplesoftmods.com/uncategorized/how-to-set-up-two-factor-authentication-in-peoplesoft/" target="_blank">here</a> that shows the steps on how to implement this.
 </p>
 
 <p style="text-align: justify;">
@@ -104,7 +104,7 @@ categories:
 Here is the flow of the authentication process. The start is the login page and the end is the home page.
 
 <div id="attachment_141" style="width: 831px" class="wp-caption alignnone">
-  <a href="http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" rel="attachment wp-att-141"><img class="wp-image-141 size-full" src="http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" alt="Two-Factor Authentication in PeopleSoft Flowchart" width="821" height="630" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png 821w, http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-300x230.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-768x589.png 768w, http://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-495x380.png 495w" sizes="(max-width: 821px) 100vw, 821px" /></a>
+  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" rel="attachment wp-att-141"><img class="wp-image-141 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" alt="Two-Factor Authentication in PeopleSoft Flowchart" width="821" height="630" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png 821w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-300x230.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-768x589.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-495x380.png 495w" sizes="(max-width: 821px) 100vw, 821px" /></a>
   
   <p class="wp-caption-text">
     Two-Factor Authentication in PeopleSoft Flowchart
@@ -119,4 +119,4 @@ Here is the flow of the authentication process. The start is the login page and 
 
 
 
-If you are interested in the details of how to implement this project, then go [here](http://www.peoplesoftmods.com/uncategorized/how-to-set-up-two-factor-authentication-in-peoplesoft/) to view the tutorial.
+If you are interested in the details of how to implement this project, then go [here](https://www.peoplesoftmods.com/uncategorized/how-to-set-up-two-factor-authentication-in-peoplesoft/) to view the tutorial.

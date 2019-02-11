@@ -2,7 +2,7 @@
 id: 1303
 title: Overriding Web Server Properties in the PIA
 date: 2018-02-17T11:16:15+00:00
-guid: http://www.peoplesoftmods.com/?p=1303
+guid: https://www.peoplesoftmods.com/?p=1303
 permalink: /psadmin/overriding-web-server-properties-in-the-pia/
 tags:
   - Web Profile

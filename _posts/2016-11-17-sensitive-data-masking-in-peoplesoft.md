@@ -2,7 +2,7 @@
 id: 771
 title: Sensitive Data Masking in PeopleSoft
 date: 2016-11-17T17:01:17+00:00
-guid: http://www.peoplesoftmods.com/?p=771
+guid: https://www.peoplesoftmods.com/?p=771
 permalink: /2fa/sensitive-data-masking-in-peoplesoft/
 categories:
   - Data Masking

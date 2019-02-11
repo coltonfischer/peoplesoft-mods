@@ -2,7 +2,7 @@
 id: 1280
 title: PeopleCode Syntax Highlighting in Ace Editor
 date: 2018-02-15T18:48:18+00:00
-guid: http://www.peoplesoftmods.com/?p=1280
+guid: https://www.peoplesoftmods.com/?p=1280
 permalink: /tips-and-tricks/peoplecode-syntax-highlighting-in-ace-editor/
 tags:
   - PeopleCode

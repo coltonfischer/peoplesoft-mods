@@ -2,7 +2,7 @@
 id: 1182
 title: Compile and Run PeopleCode Online
 date: 2017-10-12T19:00:06+00:00
-guid: http://www.peoplesoftmods.com/?p=1182
+guid: https://www.peoplesoftmods.com/?p=1182
 permalink: /utilities/compile-and-run-peoplecode-online/
 tags:
  - Metadata API

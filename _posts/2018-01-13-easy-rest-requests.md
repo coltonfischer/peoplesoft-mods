@@ -2,7 +2,7 @@
 id: 1247
 title: Easy REST Requests
 date: 2018-01-13T08:52:08+00:00
-guid: http://www.peoplesoftmods.com/?p=1247
+guid: https://www.peoplesoftmods.com/?p=1247
 permalink: /tips-and-tricks/easy-rest-requests/
 tags:
   - Web Services

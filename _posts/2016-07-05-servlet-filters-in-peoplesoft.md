@@ -2,7 +2,7 @@
 id: 209
 title: Servlet Filters in PeopleSoft
 date: 2016-07-05T00:14:18+00:00
-guid: http://www.peoplesoftmods.com/?p=209
+guid: https://www.peoplesoftmods.com/?p=209
 permalink: /servlet-filters/servlet-filters-in-peoplesoft/
 categories:
   - Servlet Filters

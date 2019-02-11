@@ -2,7 +2,7 @@
 id: 1344
 title: Custom Branding User Attributes
 date: 2018-11-22
-guid: http://www.peoplesoftmods.com/?p=1344
+guid: https://www.peoplesoftmods.com/?p=1344
 permalink: /ux/custom-branding-user-attributes/
 tags:
   - User Attributes

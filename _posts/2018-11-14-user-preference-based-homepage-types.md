@@ -2,7 +2,7 @@
 id: 1342
 title: User Preference-Based Homepage Types
 date: 2018-11-14
-guid: http://www.peoplesoftmods.com/?p=1342
+guid: https://www.peoplesoftmods.com/?p=1342
 permalink: /ux/user-preference-based-homepage-types/
 tags:
   - User Personalizations

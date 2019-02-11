@@ -2,7 +2,7 @@
 id: 1335
 title: Managing Large HTML Objects
 date: 2018-03-10T10:44:26+00:00
-guid: http://www.peoplesoftmods.com/?p=1335
+guid: https://www.peoplesoftmods.com/?p=1335
 permalink: /tips-and-tricks/managing-large-html-objects/
 tags:
   - JavaScript

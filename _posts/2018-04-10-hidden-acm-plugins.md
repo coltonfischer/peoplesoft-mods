@@ -2,7 +2,7 @@
 id: 1341
 title: Hidden ACM Plugins
 date: 2018-04-10T06:36:32+00:00
-guid: http://www.peoplesoftmods.com/?p=1341
+guid: https://www.peoplesoftmods.com/?p=1341
 permalink: /psadmin/hidden-acm-plugins/
 tags:
   - App Designer

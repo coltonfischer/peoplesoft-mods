@@ -2,7 +2,7 @@
 id: 1364
 title: Validating Time-Based One-Time Passwords
 date: 2018-03-24T06:00:01+00:00
-guid: http://www.peoplesoftmods.com/?p=1364
+guid: https://www.peoplesoftmods.com/?p=1364
 permalink: /2fa/validating-time-based-one-time-passwords/
 tags:
   - QR Code

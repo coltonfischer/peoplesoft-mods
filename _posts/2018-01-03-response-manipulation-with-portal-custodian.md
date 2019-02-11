@@ -2,7 +2,7 @@
 id: 1239
 title: Response Manipulation with Portal Custodian
 date: 2018-01-03T17:44:34+00:00
-guid: http://www.peoplesoftmods.com/?p=1239
+guid: https://www.peoplesoftmods.com/?p=1239
 permalink: /psadmin/response-manipulation-with-portal-custodian/
 tags:
   - Web Server

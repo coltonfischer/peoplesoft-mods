@@ -2,7 +2,7 @@
 id: 974
 title: 'Understanding the %metadata Application Package'
 date: 2017-04-23T16:17:18+00:00
-guid: http://www.peoplesoftmods.com/?p=974
+guid: https://www.peoplesoftmods.com/?p=974
 permalink: /tips-and-tricks/understanding-the-metadata-application-package/
 categories:
   - Tips and Tricks
@@ -99,7 +99,7 @@ All of the manager classes seem to have a common set of methods for getting and 
 
 The keys are used to reference a specific definition for a given object type.  The key object is a required parameter for all manager class&#8217;s GetDefn, GetDefnToUpdate, and DefnExists mehods. The instantiation of a key object is rather strange as the key constructor behaves in an overloaded fashion and takes a non-PeopleCode object type as a parameter.  This can be proven by trying to extend the Key object&#8217;s constructor in App Designer:
 
-[<img class="alignnone size-full wp-image-992" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png" alt="Key_Constructor" width="558" height="421" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png 558w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor-300x226.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor-504x380.png 504w" sizes="(max-width: 558px) 100vw, 558px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png)
+[<img class="alignnone size-full wp-image-992" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png" alt="Key_Constructor" width="558" height="421" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png 558w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor-300x226.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor-504x380.png 504w" sizes="(max-width: 558px) 100vw, 558px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/04/Key_Constructor.png)
 
 As you can see from the picture above, the key&#8217;c constructor takes a RepeatedAny object type, which is not a native PeopleCode object type.  This leads me to believe that we are directly referencing a lower-level language (non-PeopleCode) implementation of these (%metadata) objects.  This could be one of the reasons why we do not have access to view the source of the %metadata package in App Designer.
 
@@ -333,4 +333,4 @@ There was an interesting post on the Oracle Developer Community asking how we ca
 
 While I did not provide concrete examples of how to manipulate every possible object type with %metadata, I hope that I shined enough light on the subject to provide direction on how to go about manipulating any particular object type.  I believe that after gaining an understanding of the major aspects (Definitions, Managers, and Keys) of %metadata, one can fairly easily stumble their way through the usage of this package.
 
-I think there can be many interesting use cases of the %metadata application package. I am personally putting this package to use by building out a PIA-based (online) PeopleSoft IDE. At the moment my online IDE is just a PeopleCode event editor with a horrible UI, but it is worth mentioning that I have had great success so far with using this package to view/update PeopleCode on any of the PepleCode events.  My biggest hurdle at the moment is coming with a JavaScript-based PeopleCode syntax highlighter/parser.  Here is a post documenting the [Online PeopleCode Editor Project](http://www.peoplesoftmods.com/tips-and-tricks/online-peoplecode-editor-project/).
+I think there can be many interesting use cases of the %metadata application package. I am personally putting this package to use by building out a PIA-based (online) PeopleSoft IDE. At the moment my online IDE is just a PeopleCode event editor with a horrible UI, but it is worth mentioning that I have had great success so far with using this package to view/update PeopleCode on any of the PepleCode events.  My biggest hurdle at the moment is coming with a JavaScript-based PeopleCode syntax highlighter/parser.  Here is a post documenting the [Online PeopleCode Editor Project](https://www.peoplesoftmods.com/tips-and-tricks/online-peoplecode-editor-project/).

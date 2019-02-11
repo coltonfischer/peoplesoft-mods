@@ -2,7 +2,7 @@
 id: 1343
 title: Creating Personalization Options
 date: 2018-11-14
-guid: http://www.peoplesoftmods.com/?p=1343
+guid: https://www.peoplesoftmods.com/?p=1343
 permalink: /ux/creating-personalization-options/
 tags:
   - User Personalizations

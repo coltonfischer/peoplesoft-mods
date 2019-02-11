@@ -2,7 +2,7 @@
 id: 1164
 title: Generating QR Codes in PeopleSoft
 date: 2017-09-30T14:30:15+00:00
-guid: http://www.peoplesoftmods.com/?p=1164
+guid: https://www.peoplesoftmods.com/?p=1164
 permalink: /2fa/generating-qr-codes-in-peoplesoft/
 categories:
   - Tips and Tricks
@@ -16,7 +16,7 @@ QR codes are a great way to transport information into a mobile device that woul
 
 For demonstration purposes, I created a simple IScript that is capable of returning a QR code for the logged in user.  The data inside of the QR code is a 16 character, base32 encoded string.  This string is used as the secret key for a mobile authenticator application to generate TOTPs for the user.
 
-<span style="text-decoration: underline;"><strong><a href="http://www.peoplesoftmods.com/Development/PSM_QR_CODE.zip">CLICK HERE</a></strong></span> to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.  To access the QR code generating IScript, you will need to assign the _PSM_QR_ Permission List to a Role of the users that you want to generate QR codes for.
+<span style="text-decoration: underline;"><strong><a href="https://www.peoplesoftmods.com/Development/PSM_QR_CODE.zip">CLICK HERE</a></strong></span> to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.  To access the QR code generating IScript, you will need to assign the _PSM_QR_ Permission List to a Role of the users that you want to generate QR codes for.
 
 After performing the security setup, you can login as the privileged user and invoke the IScript.  You can point your browser to the following URL to generate a QR code for the user:
 
@@ -24,7 +24,7 @@ After performing the security setup, you can login as the privileged user and in
 
 And you should get a QR code for the logged in user:
 
-[<img class="alignnone size-full wp-image-1165" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png" alt="QR Code" width="798" height="471" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png 798w, http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-300x177.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-768x453.png 768w, http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-644x380.png 644w" sizes="(max-width: 798px) 100vw, 798px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png)
+[<img class="alignnone size-full wp-image-1165" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png" alt="QR Code" width="798" height="471" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png 798w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-300x177.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-768x453.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-644x380.png 644w" sizes="(max-width: 798px) 100vw, 798px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png)
 
 This QR code can be scanned into a mobile authenticator application and it should immediately start generating TOTPs.
 
@@ -67,6 +67,6 @@ Last, I output the SVG QR code and additional details to the screen using the wr
 
 * * *
 
-In a [previous post](http://www.peoplesoftmods.com/2fa/implementing-google-authenticator-in-peoplesoft/), I demonstrated how I was able to use the Google Charts API to generate QR codes in PeopleSoft.  Using the third-party API was an easy solution to the problem, but I think it is best to limit relying on third-parties as much as possible. In this post, we saw how we can utilize “delivered” techniques to generate QR Codes without creating additional dependencies.
+In a [previous post](https://www.peoplesoftmods.com/2fa/implementing-google-authenticator-in-peoplesoft/), I demonstrated how I was able to use the Google Charts API to generate QR codes in PeopleSoft.  Using the third-party API was an easy solution to the problem, but I think it is best to limit relying on third-parties as much as possible. In this post, we saw how we can utilize “delivered” techniques to generate QR Codes without creating additional dependencies.
 
 I think using Java’s Built-in JavaScript interpreter to perform technically challenging tasks is a really cool way to both overcome the shortcomings of the PeopleCode language and provide for a lifecycle management-friendly solution.  If you are interested in reading and understanding more about this technique, then I highly suggest checking out Jim Marion’s posts <a href="http://jjmpsj.blogspot.com/2015/09/javascript-on-app-server-scripting.html" target="_blank">JavaScript on the App Server: Scripting PeopleCode</a> and <a href="http://jjmpsj.blogspot.com/2016/07/dynamic-java-in-peoplecode.html" target="_blank">Dynamic Java in PeopleCode</a>.

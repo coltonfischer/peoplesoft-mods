@@ -2,7 +2,7 @@
 id: 907
 title: Using PT_METADATA to Create Objects
 date: 2017-04-02T14:42:32+00:00
-guid: http://www.peoplesoftmods.com/?p=907
+guid: https://www.peoplesoftmods.com/?p=907
 permalink: /tips-and-tricks/using-pt_metadata-to-create-objects/
 categories:
   - Tips and Tricks
@@ -13,11 +13,11 @@ I was recently poking around the delivered code behind the Branding Framework pa
 
 For demonstration purposes, I created a page that functions similar to the delivered Branding Framework pages. This page will have a few input fields to specify the needed attributes to create an HTML or Style Sheet object definition.
 
-[<img class="alignnone size-full wp-image-908" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png" alt="Populated_Fields" width="652" height="471" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png 652w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields-300x217.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields-526x380.png 526w" sizes="(max-width: 652px) 100vw, 652px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png)
+[<img class="alignnone size-full wp-image-908" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png" alt="Populated_Fields" width="652" height="471" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png 652w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields-300x217.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields-526x380.png 526w" sizes="(max-width: 652px) 100vw, 652px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/04/1Populated_Fields.png)
 
 In this example, I am creating an HTML object. There are only three required fields for HTML object definitions and they are the object name, object description, and the content the object should store. After populating the values and clicking the OK button, a small piece of PeopleCode fires.
 
-[<img class="alignnone size-full wp-image-909" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png" alt="Create_HTML" width="579" height="380" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png 579w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML-300x197.png 300w" sizes="(max-width: 579px) 100vw, 579px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png)
+[<img class="alignnone size-full wp-image-909" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png" alt="Create_HTML" width="579" height="380" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png 579w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML-300x197.png 300w" sizes="(max-width: 579px) 100vw, 579px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/04/3Create_HTML.png)
 
 <pre>/* Create HTML Object */
 import PT_METADATA:MetaDataAPI:HTMLDefn;
@@ -43,13 +43,13 @@ End-If;</pre>
 
 This code is using the HTMLDefn class to create and store all of the meta-data for the HTML object definition. This is essentially the same code that fires on the Branding Objects page when you create a new object. After the code fires, the new object can be seen in App Designer.
 
-[<img class="alignnone size-full wp-image-910" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png" alt="New_Object" width="666" height="499" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png 666w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object-300x225.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object-507x380.png 507w" sizes="(max-width: 666px) 100vw, 666px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png)
+[<img class="alignnone size-full wp-image-910" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png" alt="New_Object" width="666" height="499" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png 666w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object-300x225.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object-507x380.png 507w" sizes="(max-width: 666px) 100vw, 666px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/04/2New_Object.png)
 
 It is worth noting that this same code can be used to edit an existing HTML definition. So in this example, if the PSM\_MY\_HTML object already existed, then this code would’ve overwritten the object’s description and content with the values that were specified in the input fields.
 
 Style Sheets can be created/updated in the same fashion that the HTML objects can. There is a separate class named StylesheetDefn that is used for Style Sheet objects.  Below is sample usage of this class.  As you can see, this class operates similar to the HTMLDefn class.
 
-[<img class="alignnone size-full wp-image-911" src="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png" alt="Create_Style" width="519" height="397" srcset="http://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png 519w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style-300x229.png 300w, http://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style-497x380.png 497w" sizes="(max-width: 519px) 100vw, 519px" />](http://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png)
+[<img class="alignnone size-full wp-image-911" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png" alt="Create_Style" width="519" height="397" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png 519w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style-300x229.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style-497x380.png 497w" sizes="(max-width: 519px) 100vw, 519px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/04/4Create_Style.png)
 
 <pre>/* Create Style Object */
 import PT_METADATA:StylesheetDefn;
@@ -76,4 +76,4 @@ End-If;</pre>
 
 Other than providing some exposure to an under documented PeopleTools gem, my usage of the PT_METADATA app package to create objects in this example is not very useful as it mimics delivered functionality. However, I think there can be practical usages of this library in different contexts that can allow for enhancing the process of object/data management.
 
-In my next post, I will provide an [example of using this library to create image objects](http://www.peoplesoftmods.com/psadmin/pt_metadata-and-web-server-cache/). While doing this, I will provide a technique of how this library can provide an avenue to communicate data to be cached on the web server.
+In my next post, I will provide an [example of using this library to create image objects](https://www.peoplesoftmods.com/psadmin/pt_metadata-and-web-server-cache/). While doing this, I will provide a technique of how this library can provide an avenue to communicate data to be cached on the web server.

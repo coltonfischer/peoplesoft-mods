@@ -2,7 +2,7 @@
 id: 1348
 title: ACM Plugin Configuration Properties
 date: 2018-03-13T21:27:09+00:00
-guid: http://www.peoplesoftmods.com/?p=1348
+guid: https://www.peoplesoftmods.com/?p=1348
 permalink: /psadmin/acm-plugin-configuration-properties/
 tags:
   - ACM
