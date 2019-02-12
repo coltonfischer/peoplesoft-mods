@@ -12,7 +12,7 @@ I developed a servlet filter that is capable of logging the request data that a 
 
 <!--more-->
 
-[**CLICK HERE**](https://www.peoplesoftmods.com/Development/PSM_REQUEST_LOGGER_POC.zip) to download the project.
+[**CLICK HERE**](/assets/downloads/PSM_REQUEST_LOGGER_POC.zip) to download the project.
 
 Extract the zip and you should see the following files:
 

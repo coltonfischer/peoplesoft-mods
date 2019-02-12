@@ -11,7 +11,7 @@ I [previously demonstrated](https://www.peoplesoftmods.com/2fa/google-authentica
 
 <!--more-->
 
-<span style="text-decoration: underline;"><strong><a href="https://www.peoplesoftmods.com/Development/psGAuth.jar">CLICK HERE</a></strong></span> to download the JAR file
+<span style="text-decoration: underline;"><strong><a href="/assets/downloads/psGAuth.jar">CLICK HERE</a></strong></span> to download the JAR file
 
 The downloaded JAR file will need to be placed on to the PeopleSoft app server.  Specifically, the JAR file needs to reside in the class directory of the your PS_HOME.  The JAR file path should look like this:
 

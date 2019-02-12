@@ -12,7 +12,7 @@ I previously demonstrated how servlet filters can be used to view and modify HTT
 
 <!--more-->
 
-[**CLICK HERE**](https://www.peoplesoftmods.com/Development/PSM_DATA_MASKER_POC.zip) to download the project.
+[**CLICK HERE**](/assets/downloads/PSM_DATA_MASKER_POC.zip) to download the project.
 
 Extract the zip and you should see the following files:
 

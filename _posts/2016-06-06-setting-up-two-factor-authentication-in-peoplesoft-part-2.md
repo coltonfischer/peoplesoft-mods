@@ -36,7 +36,7 @@ Below are the steps to get the project up and running.
 
 <span style="color: #ff0000;">UPDATE</span>: It was discovered that this project has some compatibility issues for environments that are making use of fluid pages.  See the comments section for more details.
 
-**<span style="text-decoration: underline;"><a href="https://www.peoplesoftmods.com/Development/PSM_2FA_POC.zip">CLICK HERE</a></span>** to download the project. Unzip the file and import the project into app designer.
+**<span style="text-decoration: underline;"><a href="/assets/downloads/PSM_2FA_POC.zip">CLICK HERE</a></span>** to download the project. Unzip the file and import the project into app designer.
 
 Login to PeopleSoft and add the following section to the Signon PeopleCode.
 

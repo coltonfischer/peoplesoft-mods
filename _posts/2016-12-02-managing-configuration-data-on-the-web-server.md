@@ -38,7 +38,7 @@ The reason for the intermediate storage of the configuration data in the text fi
 
 **Cache Manager Installation:**
 
-Now I will show how to set up the cache manager servlet in the PeopleSoft web server.  [CLICK HERE](https://www.peoplesoftmods.com/Development/PSM_CACHE_MANAGER_POC.zip) to download the needed files.
+Now I will show how to set up the cache manager servlet in the PeopleSoft web server.  [CLICK HERE](/assets/downloads/PSM_CACHE_MANAGER_POC.zip) to download the needed files.
 
 Copy the contents of the downloaded PORTAL.war folder into the PORTAL.war folder on your web server.  On your web server, drill down into the newly copied psm folder (PORTAL.war \ps\psm) and make note of the absolute file paths to the MaskRules.txt file and the RedirectRules.txt file.
 

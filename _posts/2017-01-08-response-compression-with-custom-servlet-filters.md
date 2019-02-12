@@ -11,7 +11,7 @@ One major drawback of the response-manipulating servlet filters that I have show
 
 <!--more-->
 
-[**CLICK HERE**](https://www.peoplesoftmods.com/Development/PSM_COMPRESSION_FILTER_POC.zip) to download the project.
+[**CLICK HERE**](/assets/downloads/PSM_COMPRESSION_FILTER_POC.zip) to download the project.
 
 Extract the zip and you should see the following files:
 

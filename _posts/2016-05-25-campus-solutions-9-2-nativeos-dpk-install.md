@@ -89,7 +89,7 @@ Press _n_ at the “Do you want to continue with the default initialization proc
 
 <a href="/assets/images/2016/05/Capture10.png" rel="attachment wp-att-91"><img class="alignnone size-full wp-image-91" src="/assets/images/2016/05/Capture10.png" alt="Capture10" width="611" height="269" srcset="/assets/images/2016/05/Capture10.png 611w, /assets/images/2016/05/Capture10-300x132.png 300w" sizes="(max-width: 611px) 100vw, 611px" /></a>
 
-Go to _C:\ProgramData\PuppetLabs\puppet\etc\data_ directory and create a file named _psft_customizations.yaml_.  Open this file in a text editor, paste in the 3 lines of text below, and then save.  Or you can just download the file from <a href="https://www.peoplesoftmods.com/Development/psft_customizations.yaml" target="_blank">here</a> and then upload it to the _C:\ProgramData\PuppetLabs\puppet\etc\data_ directory.
+Go to _C:\ProgramData\PuppetLabs\puppet\etc\data_ directory and create a file named _psft_customizations.yaml_.  Open this file in a text editor, paste in the 3 lines of text below, and then save.  Or you can just download the file from <a href="/assets/downloads/psft_customizations.yaml" target="_blank">here</a> and then upload it to the _C:\ProgramData\PuppetLabs\puppet\etc\data_ directory.
 
 <pre>---
 

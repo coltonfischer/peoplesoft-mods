@@ -11,7 +11,7 @@ I recently made a post discussing the [%metadata application package in PeopleSo
 
 <!--more-->
 
-<span style="text-decoration: underline;"><strong><a href="https://www.peoplesoftmods.com/Development/PSM_WEB_IDE.zip">CLICK HERE</a></strong></span> to download the Online PeopleCode Editor project.  Unzip the file and copy the project from file into App Designer.
+<span style="text-decoration: underline;"><strong><a href="/assets/downloads/PSM_WEB_IDE.zip">CLICK HERE</a></strong></span> to download the Online PeopleCode Editor project.  Unzip the file and copy the project from file into App Designer.
 
 The only setup that is needed to get this project working is the assignment of a Permission List. Login to the PIA and assign the PSM_WIDE Permission List to a role that you want to have access to the PeopleCode editor.
 

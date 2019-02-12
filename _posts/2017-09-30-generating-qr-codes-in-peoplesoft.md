@@ -16,7 +16,7 @@ QR codes are a great way to transport information into a mobile device that woul
 
 For demonstration purposes, I created a simple IScript that is capable of returning a QR code for the logged in user.  The data inside of the QR code is a 16 character, base32 encoded string.  This string is used as the secret key for a mobile authenticator application to generate TOTPs for the user.
 
-<span style="text-decoration: underline;"><strong><a href="https://www.peoplesoftmods.com/Development/PSM_QR_CODE.zip">CLICK HERE</a></strong></span> to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.  To access the QR code generating IScript, you will need to assign the _PSM_QR_ Permission List to a Role of the users that you want to generate QR codes for.
+<span style="text-decoration: underline;"><strong><a href="/assets/downloads/PSM_QR_CODE.zip">CLICK HERE</a></strong></span> to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.  To access the QR code generating IScript, you will need to assign the _PSM_QR_ Permission List to a Role of the users that you want to generate QR codes for.
 
 After performing the security setup, you can login as the privileged user and invoke the IScript.  You can point your browser to the following URL to generate a QR code for the user:
 

@@ -50,7 +50,7 @@ The Click-To-Challenge functionality is achieved via a combination of the method
 
 If you are interested in implementing this proof of concept solution for the Campus Community Fluid Personal Details page in your Campus Solutions application, then follow the steps below.
 
-[**CLICK HERE**](https://www.peoplesoftmods.com/Development/PSM_DATA_MASK_EMF_POC.zip) to download App Designer Project and import it into app designer. Map the included Related Content Service using Event Mapping to the Fluid Personal Details CREF.
+[**CLICK HERE**](/assets/downloads/PSM_DATA_MASK_EMF_POC.zip) to download App Designer Project and import it into app designer. Map the included Related Content Service using Event Mapping to the Fluid Personal Details CREF.
 
 [<img class="alignnone size-full wp-image-1081" src="/assets/images/2017/07/Personal-Details-CREF.png" alt="Personal Details CREF" width="840" height="908" srcset="/assets/images/2017/07/Personal-Details-CREF.png 840w, /assets/images/2017/07/Personal-Details-CREF-278x300.png 278w, /assets/images/2017/07/Personal-Details-CREF-768x830.png 768w, /assets/images/2017/07/Personal-Details-CREF-352x380.png 352w" sizes="(max-width: 840px) 100vw, 840px" />](/assets/images/2017/07/Personal-Details-CREF.png)
 

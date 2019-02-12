@@ -18,7 +18,7 @@ I am going to provide a proof-of-concept example of how to do the redirection po
 
 * * *
 
-[<span style="text-decoration: underline;"><strong>CLICK HERE</strong></span>](https://www.peoplesoftmods.com/Development/PSM_SERVLET_FILTER_POC.zip) to download the project.
+[<span style="text-decoration: underline;"><strong>CLICK HERE</strong></span>](/assets/downloads/PSM_SERVLET_FILTER_POC.zip) to download the project.
 
 Extract the zip and you should see the following files:
 

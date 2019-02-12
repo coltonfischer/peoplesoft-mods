@@ -20,7 +20,7 @@ To this:
 
 <a href="/assets/images/2016/06/Redirect_Logic-1.png" rel="attachment wp-att-206"><img class="alignnone size-full wp-image-206" src="/assets/images/2016/06/Redirect_Logic-1.png" alt="Redirect Logic" width="440" height="535" srcset="/assets/images/2016/06/Redirect_Logic-1.png 440w, /assets/images/2016/06/Redirect_Logic-1-247x300.png 247w, /assets/images/2016/06/Redirect_Logic-1-313x380.png 313w" sizes="(max-width: 440px) 100vw, 440px" /></a>
 
-**<span style="text-decoration: underline;"><a href="https://www.peoplesoftmods.com/Development/PSM_2FA_EVENT_MAPPING_POC.zip">CLICK HERE</a></span>** to download the project. Unzip the file and import the project into app designer.
+**<span style="text-decoration: underline;"><a href="/assets/downloads/PSM_2FA_EVENT_MAPPING_POC.zip">CLICK HERE</a></span>** to download the project. Unzip the file and import the project into app designer.
 
 Login to PeopleSoft and navigate to _Main Menu &#8211; > PeopleTools -> Portal -> Related Content Service -> Manage Related Content Service_.  Click on the _Event Mapping_ tab.
 

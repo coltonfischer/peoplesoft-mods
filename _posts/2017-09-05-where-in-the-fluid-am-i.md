@@ -11,7 +11,7 @@ When navigating in a PeopleSoft system that uses Fluid Navigation, it can be eas
 
 <!--more-->
 
-[<span style="text-decoration: underline;"><strong>CLICK HERE</strong></span>](https://www.peoplesoftmods.com/Development/PSM_YAH.zip) to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.
+[<span style="text-decoration: underline;"><strong>CLICK HERE</strong></span>](/assets/downloads/PSM_YAH.zip) to download the app designer project.  Unzip the project from the downloaded file and import the project from file in App Designer.
 
 There is a Permission List in the project named PSM\_YAH.  This Permission List has access to the IScript that provides the Portal Registry path for a given page.  Assign the PSM\_YAH Permission List to a Role that you want to have this functionality enabled for.
 

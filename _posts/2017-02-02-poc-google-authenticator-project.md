@@ -16,13 +16,13 @@ Disclaimer: I will admit that the design and logic of parts of this project are 
 
 With that disclaimer out of the way, this post will contain the steps to install the project and get it up and running.  If you would like more technical details of how the project works, then [check this post out](https://www.peoplesoftmods.com/2fa/implementing-google-authenticator-in-peoplesoft/).
 
-Add [psGAuth.jar](https://www.peoplesoftmods.com/Development/psGAuth.jar) to class directory in your PS_HOME on the app server (_%PS_HOME%\class\psGAuth.jar_) and bounce the app server with a cache clear.
+Add [psGAuth.jar](/assets/downloads/psGAuth.jar) to class directory in your PS_HOME on the app server (_%PS_HOME%\class\psGAuth.jar_) and bounce the app server with a cache clear.
 
 **<span style="color: #ff0000;">UPDATE</span>** 2/22/18: The provided JAR file does not function properly in PeopleTools 8.56 as it it dependent on an older version of  Apache Commons Codec.  See comments for more details.
 
 **<span style="color: #ff0000;">UPDATE</span> **3/30/18:  Check out the post [Validating Time-Based One-Time Passwords](https://www.peoplesoftmods.com/2fa/validating-time-based-one-time-passwords/) if you do not want to have the custom Java class (psGAuth.jar) app server dependency.  That post demonstrates an alternative method to validating TOTPs that does not require an app server dependency.
 
-Import the [App Designer project](https://www.peoplesoftmods.com/Development/PSM_GAUTH_POC.zip) into App Designer and build the project.
+Import the [App Designer project](/assets/downloads/PSM_GAUTH_POC.zip) into App Designer and build the project.
 
 [<img class="alignnone size-full wp-image-830" src="/assets/images/2017/02/1_Import_Build_Project.png" alt="Import and Build Project" width="1039" height="779" srcset="/assets/images/2017/02/1_Import_Build_Project.png 1039w, /assets/images/2017/02/1_Import_Build_Project-300x225.png 300w, /assets/images/2017/02/1_Import_Build_Project-768x576.png 768w, /assets/images/2017/02/1_Import_Build_Project-1024x768.png 1024w, /assets/images/2017/02/1_Import_Build_Project-507x380.png 507w" sizes="(max-width: 1039px) 100vw, 1039px" />](/assets/images/2017/02/1_Import_Build_Project.png)
 
