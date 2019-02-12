@@ -13,23 +13,23 @@ The Branding Framework pages are really useful because they provide the ability 
 
 I will start off by creating a new HTML definition in App Designer.
 
-[<img class="alignnone size-full wp-image-885" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Object.png" alt="New_Object" width="621" height="374" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Object.png 621w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Object-300x181.png 300w" sizes="(max-width: 621px) 100vw, 621px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Object.png)
+[<img class="alignnone size-full wp-image-885" src="/assets/images/2017/03/New_Object.png" alt="New_Object" width="621" height="374" srcset="/assets/images/2017/03/New_Object.png 621w, /assets/images/2017/03/New_Object-300x181.png 300w" sizes="(max-width: 621px) 100vw, 621px" />](/assets/images/2017/03/New_Object.png)
 
 As I mentioned above, I cannot simply go to the Branding Objects page (PeopleTools > Portal > Branding > Branding Objects) in the PIA to modify the contents of this object. When I go to the Branding Objects page at this point, I am presented with no modifiable objects.
 
-[<img class="alignnone size-full wp-image-886" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Branding_Objects.png" alt="Branding_Objects" width="381" height="280" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Branding_Objects.png 381w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Branding_Objects-300x220.png 300w" sizes="(max-width: 381px) 100vw, 381px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Branding_Objects.png)
+[<img class="alignnone size-full wp-image-886" src="/assets/images/2017/03/Branding_Objects.png" alt="Branding_Objects" width="381" height="280" srcset="/assets/images/2017/03/Branding_Objects.png 381w, /assets/images/2017/03/Branding_Objects-300x220.png 300w" sizes="(max-width: 381px) 100vw, 381px" />](/assets/images/2017/03/Branding_Objects.png)
 
 I made a simple page to get the newly created object imported into the Branding Framework. The page has an input field and a button.
 
-[<img class="alignnone size-full wp-image-887" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Test_Page.png" alt="Test_Page" width="703" height="500" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Test_Page.png 703w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Test_Page-300x213.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Test_Page-534x380.png 534w" sizes="(max-width: 703px) 100vw, 703px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Test_Page.png)
+[<img class="alignnone size-full wp-image-887" src="/assets/images/2017/03/Test_Page.png" alt="Test_Page" width="703" height="500" srcset="/assets/images/2017/03/Test_Page.png 703w, /assets/images/2017/03/Test_Page-300x213.png 300w, /assets/images/2017/03/Test_Page-534x380.png 534w" sizes="(max-width: 703px) 100vw, 703px" />](/assets/images/2017/03/Test_Page.png)
 
 This page will take an HTML object name in the input field and upload the object to the Branding Framework on the button click.
 
-[<img class="alignnone size-full wp-image-888" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Input_Value.png" alt="Input_Value" width="598" height="226" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Input_Value.png 598w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Input_Value-300x113.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Input_Value.png)
+[<img class="alignnone size-full wp-image-888" src="/assets/images/2017/03/Input_Value.png" alt="Input_Value" width="598" height="226" srcset="/assets/images/2017/03/Input_Value.png 598w, /assets/images/2017/03/Input_Value-300x113.png 300w" sizes="(max-width: 598px) 100vw, 598px" />](/assets/images/2017/03/Input_Value.png)
 
 When the user inputs the HTML object name into the input field and clicks the OK button, a small piece of PeopleCode fires.
 
-[<img class="alignnone size-full wp-image-889" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Save_Object.png" alt="Save_Object" width="873" height="330" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Save_Object.png 873w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Save_Object-300x113.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Save_Object-768x290.png 768w" sizes="(max-width: 873px) 100vw, 873px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/Save_Object.png)
+[<img class="alignnone size-full wp-image-889" src="/assets/images/2017/03/Save_Object.png" alt="Save_Object" width="873" height="330" srcset="/assets/images/2017/03/Save_Object.png 873w, /assets/images/2017/03/Save_Object-300x113.png 300w, /assets/images/2017/03/Save_Object-768x290.png 768w" sizes="(max-width: 873px) 100vw, 873px" />](/assets/images/2017/03/Save_Object.png)
 
 <pre>import PTBR_BRANDING:BrandingObj;
 
@@ -54,6 +54,6 @@ This PeopleCode uses the BrandingObj class of the PTBR_BRANDING application pack
 
 Now when I go back to the Branding Objects page in the PIA, I can see my newly imported JavaScript object.
 
-[<img class="alignnone size-full wp-image-890" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Branding_Object.png" alt="New_Branding_Object" width="752" height="327" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Branding_Object.png 752w, https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Branding_Object-300x130.png 300w" sizes="(max-width: 752px) 100vw, 752px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/03/New_Branding_Object.png)
+[<img class="alignnone size-full wp-image-890" src="/assets/images/2017/03/New_Branding_Object.png" alt="New_Branding_Object" width="752" height="327" srcset="/assets/images/2017/03/New_Branding_Object.png 752w, /assets/images/2017/03/New_Branding_Object-300x130.png 300w" sizes="(max-width: 752px) 100vw, 752px" />](/assets/images/2017/03/New_Branding_Object.png)
 
 I am no longer bound to only being able to update this object’s content in App Designer.  I can now modify this object from within the PIA.

@@ -16,29 +16,29 @@ I developed a servlet filter that is capable of logging the request data that a 
 
 Extract the zip and you should see the following files:
 
-[<img class="alignnone wp-image-510 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/files.png" alt="files" width="141" height="68" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/files.png)
+[<img class="alignnone wp-image-510 size-full" src="/assets/images/2016/08/files.png" alt="files" width="141" height="68" />](/assets/images/2016/08/files.png)
 
 Take the folder named “custom” and place it in the following directory:
 
 <pre>%PS_CFG_HOME%\webserv\*your_domain_name*\applications\peoplesoft\PORTAL.war\WEB-INF\classes\com\peoplesoft\pt</pre>
 
-[<img class="alignnone wp-image-511 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/custom_folder.png" alt="custom_folder" width="590" height="270" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/custom_folder.png 590w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/custom_folder-300x137.png 300w" sizes="(max-width: 590px) 100vw, 590px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/custom_folder.png)
+[<img class="alignnone wp-image-511 size-full" src="/assets/images/2016/08/custom_folder.png" alt="custom_folder" width="590" height="270" srcset="/assets/images/2016/08/custom_folder.png 590w, /assets/images/2016/08/custom_folder-300x137.png 300w" sizes="(max-width: 590px) 100vw, 590px" />](/assets/images/2016/08/custom_folder.png)
 
 Take the folder named “RequestLoggerFilter” and place it in the following directory:
 
 <pre> %PS_HOME%\sdk</pre>
 
-[<img class="alignnone size-full wp-image-514" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/sdk_folder.png" alt="sdk_folder" width="590" height="393" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/sdk_folder.png 590w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/sdk_folder-300x200.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/sdk_folder-570x380.png 570w" sizes="(max-width: 590px) 100vw, 590px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/sdk_folder.png)
+[<img class="alignnone size-full wp-image-514" src="/assets/images/2016/08/sdk_folder.png" alt="sdk_folder" width="590" height="393" srcset="/assets/images/2016/08/sdk_folder.png 590w, /assets/images/2016/08/sdk_folder-300x200.png 300w, /assets/images/2016/08/sdk_folder-570x380.png 570w" sizes="(max-width: 590px) 100vw, 590px" />](/assets/images/2016/08/sdk_folder.png)
 
 Navigate to and open up the web.xml file.  The web.xml file is located in the following directory:
 
 <pre>%PS_CFG_HOME%\webserv\*your_domain_name*\applications\peoplesoft\PORTAL.war\WEB-INF</pre>
 
-[<img class="alignnone size-full wp-image-515" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_file.png" alt="webxml_file" width="623" height="292" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_file.png 623w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_file-300x141.png 300w" sizes="(max-width: 623px) 100vw, 623px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_file.png)
+[<img class="alignnone size-full wp-image-515" src="/assets/images/2016/08/webxml_file.png" alt="webxml_file" width="623" height="292" srcset="/assets/images/2016/08/webxml_file.png 623w, /assets/images/2016/08/webxml_file-300x141.png 300w" sizes="(max-width: 623px) 100vw, 623px" />](/assets/images/2016/08/webxml_file.png)
 
 Copy the text from the downloaded file named “webxml.txt” and paste the text into your web.xml file.  Paste in the text so that it is the first <filter> to show up in the web.xml file.  For my environment, I pasted the filter before the delivered “psfilter”.  After saving the web.xml file, **you will need to bounce the web server.**
 
-[<img class="alignnone size-full wp-image-516" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_text.png" alt="webxml_text" width="724" height="706" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_text.png 724w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_text-300x293.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_text-390x380.png 390w" sizes="(max-width: 724px) 100vw, 724px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/webxml_text.png)
+[<img class="alignnone size-full wp-image-516" src="/assets/images/2016/08/webxml_text.png" alt="webxml_text" width="724" height="706" srcset="/assets/images/2016/08/webxml_text.png 724w, /assets/images/2016/08/webxml_text-300x293.png 300w, /assets/images/2016/08/webxml_text-390x380.png 390w" sizes="(max-width: 724px) 100vw, 724px" />](/assets/images/2016/08/webxml_text.png)
 
 After bouncing the web server, login to the PIA and navigate around to some arbitrary components.  I logged in as the PS user and navigated to the “Change my Password” page. Now open up the following directory on the webserver:
 
@@ -46,11 +46,11 @@ After bouncing the web server, login to the PIA and navigate around to some arbi
 
 You should see a csv file that is prefixed with “PSM\_REQLOG\_”
 
-[<img class="alignnone size-full wp-image-517" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output_file.png" alt="output_file" width="633" height="554" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output_file.png 633w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output_file-300x263.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output_file-434x380.png 434w" sizes="(max-width: 633px) 100vw, 633px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output_file.png)
+[<img class="alignnone size-full wp-image-517" src="/assets/images/2016/08/output_file.png" alt="output_file" width="633" height="554" srcset="/assets/images/2016/08/output_file.png 633w, /assets/images/2016/08/output_file-300x263.png 300w, /assets/images/2016/08/output_file-434x380.png 434w" sizes="(max-width: 633px) 100vw, 633px" />](/assets/images/2016/08/output_file.png)
 
 Open this file up and it will contain request logs.  Since I logged in as the PS account and navigated to the “Change My password’ page, my log file contains the following:
 
-[<img class="alignnone size-full wp-image-518" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output.png" alt="output" width="736" height="83" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output.png 736w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output-300x34.png 300w" sizes="(max-width: 736px) 100vw, 736px" />](https://www.peoplesoftmods.com/wp-content/uploads/2016/08/output.png)
+[<img class="alignnone size-full wp-image-518" src="/assets/images/2016/08/output.png" alt="output" width="736" height="83" srcset="/assets/images/2016/08/output.png 736w, /assets/images/2016/08/output-300x34.png 300w" sizes="(max-width: 736px) 100vw, 736px" />](/assets/images/2016/08/output.png)
 
 There were two lines that showed up for this transaction.  The first one was for the call to the &#8220;psp&#8221; servlet and the second one was for the call to the &#8220;psc&#8221; servlet.  If you are interested in logging the requests for only a single servlet, then scroll to the &#8220;Configuring the URL Pattern&#8221; section.  The third column of the output file is the contents that are stored in the USERID session variable that is defined on the web server.  This value contains the PeopleSoft ID and IP address that made the request.  Scroll down to the &#8220;Attributes Parameter&#8221; section to get more information on logging these types of values.
 

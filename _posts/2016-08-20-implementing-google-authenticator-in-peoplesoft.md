@@ -33,51 +33,51 @@ Now I will give a technical demonstration of how you can use the two-step verifi
 
 The PeopleCode that will need to be written first is the code that is capable of creating a new Google Authenticator account in the system for a given user.  I put the code behind a push button on a setup page:
 
-<img class="alignnone wp-image-585 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/NewUser.png" alt="NewUser" width="582" height="167" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/NewUser.png 582w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/NewUser-300x86.png 300w" sizes="(max-width: 582px) 100vw, 582px" />
+<img class="alignnone wp-image-585 size-full" src="/assets/images/2016/08/NewUser.png" alt="NewUser" width="582" height="167" srcset="/assets/images/2016/08/NewUser.png 582w, /assets/images/2016/08/NewUser-300x86.png 300w" sizes="(max-width: 582px) 100vw, 582px" />
 
 The code behind the button will call the GetKey method to create the shared secret key.
 
-<img class="alignnone wp-image-586 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GetKey.png" alt="GetKey" width="437" height="119" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GetKey.png 437w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GetKey-300x82.png 300w" sizes="(max-width: 437px) 100vw, 437px" />
+<img class="alignnone wp-image-586 size-full" src="/assets/images/2016/08/GetKey.png" alt="GetKey" width="437" height="119" srcset="/assets/images/2016/08/GetKey.png 437w, /assets/images/2016/08/GetKey-300x82.png 300w" sizes="(max-width: 437px) 100vw, 437px" />
 
 Once you obtain the secret key, you will need to generate a QR code so that the user can easily import the account information into their Google Authenticator app.  You do not necessarily have to create a QR code, it just makes it easier on the user from not having to manually type in the secret key into the app.  I make use of the <a href="https://developers.google.com/chart/" target="_blank">Google Charts API</a> to generate the QR code.
 
-<img class="alignnone wp-image-587 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/QRURL.png" alt="QRURL" width="612" height="105" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/QRURL.png 612w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/QRURL-300x51.png 300w" sizes="(max-width: 612px) 100vw, 612px" />
+<img class="alignnone wp-image-587 size-full" src="/assets/images/2016/08/QRURL.png" alt="QRURL" width="612" height="105" srcset="/assets/images/2016/08/QRURL.png 612w, /assets/images/2016/08/QRURL-300x51.png 300w" sizes="(max-width: 612px) 100vw, 612px" />
 
 Once I have the URL to the QR code, I display it in an html area.
 
-<img class="alignnone wp-image-588 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/DisplayQRCode.png" alt="DisplayQRCode" width="526" height="64" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/DisplayQRCode.png 526w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/DisplayQRCode-300x37.png 300w" sizes="(max-width: 526px) 100vw, 526px" />
+<img class="alignnone wp-image-588 size-full" src="/assets/images/2016/08/DisplayQRCode.png" alt="DisplayQRCode" width="526" height="64" srcset="/assets/images/2016/08/DisplayQRCode.png 526w, /assets/images/2016/08/DisplayQRCode-300x37.png 300w" sizes="(max-width: 526px) 100vw, 526px" />
 
 This QR code is displayed in a setup page for the user.
 
-<img class="alignnone wp-image-589 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/5cSetupGAuth.png" alt="SetupGAuth" width="331" height="525" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/5cSetupGAuth.png 331w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/5cSetupGAuth-189x300.png 189w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/5cSetupGAuth-240x380.png 240w" sizes="(max-width: 331px) 100vw, 331px" />
+<img class="alignnone wp-image-589 size-full" src="/assets/images/2016/08/5cSetupGAuth.png" alt="SetupGAuth" width="331" height="525" srcset="/assets/images/2016/08/5cSetupGAuth.png 331w, /assets/images/2016/08/5cSetupGAuth-189x300.png 189w, /assets/images/2016/08/5cSetupGAuth-240x380.png 240w" sizes="(max-width: 331px) 100vw, 331px" />
 
 At this point, the user can open up their Google Authenticator app and scan the QR code (or manually input the account information) to add their new account.
 
-<img class="alignnone wp-image-580" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen1-1.png" alt="PhoneScreen1" width="270" height="527" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen1-1.png 334w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen1-1-154x300.png 154w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen1-1-195x380.png 195w" sizes="(max-width: 270px) 100vw, 270px" />
+<img class="alignnone wp-image-580" src="/assets/images/2016/08/PhoneScreen1-1.png" alt="PhoneScreen1" width="270" height="527" srcset="/assets/images/2016/08/PhoneScreen1-1.png 334w, /assets/images/2016/08/PhoneScreen1-1-154x300.png 154w, /assets/images/2016/08/PhoneScreen1-1-195x380.png 195w" sizes="(max-width: 270px) 100vw, 270px" />
 
 After scanning the QR code, the application will start generating TOTPs immediately.
 
-<img class="alignnone wp-image-582" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen2.png" alt="PhoneScreen2" width="271" height="529" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen2.png 334w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen2-154x300.png 154w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/PhoneScreen2-195x380.png 195w" sizes="(max-width: 271px) 100vw, 271px" />
+<img class="alignnone wp-image-582" src="/assets/images/2016/08/PhoneScreen2.png" alt="PhoneScreen2" width="271" height="529" srcset="/assets/images/2016/08/PhoneScreen2.png 334w, /assets/images/2016/08/PhoneScreen2-154x300.png 154w, /assets/images/2016/08/PhoneScreen2-195x380.png 195w" sizes="(max-width: 271px) 100vw, 271px" />
 
 Now the user can input the generated TOTP into the prompt to ensure that their application is working correctly.
 
-<img class="alignnone wp-image-590 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/InputCode.png" alt="InputCode" width="281" height="129" />
+<img class="alignnone wp-image-590 size-full" src="/assets/images/2016/08/InputCode.png" alt="InputCode" width="281" height="129" />
 
 The code behind the “OK” button will call the CheckCode method to determine if the inputted code is correct.
 
-<img class="alignnone wp-image-591 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckCode.png" alt="CheckCode" width="810" height="225" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckCode.png 810w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckCode-300x83.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckCode-768x213.png 768w" sizes="(max-width: 810px) 100vw, 810px" />
+<img class="alignnone wp-image-591 size-full" src="/assets/images/2016/08/CheckCode.png" alt="CheckCode" width="810" height="225" srcset="/assets/images/2016/08/CheckCode.png 810w, /assets/images/2016/08/CheckCode-300x83.png 300w, /assets/images/2016/08/CheckCode-768x213.png 768w" sizes="(max-width: 810px) 100vw, 810px" />
 
 If the CheckCode method returns true, then the user’s account information will be stored into the database.  In this demonstration, I am storing the User ID and the secret key value in the clear.  It would be a good idea to store the secret key in an encrypted state.
 
-<img class="alignnone wp-image-592 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GAuthTable.png" alt="GAuthTable" width="338" height="105" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GAuthTable.png 338w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/GAuthTable-300x93.png 300w" sizes="(max-width: 338px) 100vw, 338px" />
+<img class="alignnone wp-image-592 size-full" src="/assets/images/2016/08/GAuthTable.png" alt="GAuthTable" width="338" height="105" srcset="/assets/images/2016/08/GAuthTable.png 338w, /assets/images/2016/08/GAuthTable-300x93.png 300w" sizes="(max-width: 338px) 100vw, 338px" />
 
 Now that you see how a new user gets set up with Google Authenticator, I would like to show you how you can present the two-step verification challenge in your application.  When a user attempts to access a resource that you would like to protect with two-step verification, you will need to ensure that you have a secret key stored in the database for the user.
 
-<img class="alignnone wp-image-594 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckUser.png" alt="CheckUser" width="674" height="91" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckUser.png 674w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/CheckUser-300x41.png 300w" sizes="(max-width: 674px) 100vw, 674px" />
+<img class="alignnone wp-image-594 size-full" src="/assets/images/2016/08/CheckUser.png" alt="CheckUser" width="674" height="91" srcset="/assets/images/2016/08/CheckUser.png 674w, /assets/images/2016/08/CheckUser-300x41.png 300w" sizes="(max-width: 674px) 100vw, 674px" />
 
 If there is no secret key in the database for the user, then you will need to prompt the user to set up Google Authenticator as shown above.  Otherwise, you will need to prompt the user to input the current TOTP value that their Google Authenticator app has generated.
 
-<img class="alignnone wp-image-593 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/ChallengeUser.png" alt="ChallengeUser" width="590" height="184" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/ChallengeUser.png 590w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/ChallengeUser-300x94.png 300w" sizes="(max-width: 590px) 100vw, 590px" />
+<img class="alignnone wp-image-593 size-full" src="/assets/images/2016/08/ChallengeUser.png" alt="ChallengeUser" width="590" height="184" srcset="/assets/images/2016/08/ChallengeUser.png 590w, /assets/images/2016/08/ChallengeUser-300x94.png 300w" sizes="(max-width: 590px) 100vw, 590px" />
 
 The code behind the “OK” button is similar to the code above except the SecretKey parameter of the CheckCode method will be pulled from the database rather than being obtained from the GetKey method since the user already has an account setup.
 
@@ -95,7 +95,7 @@ Future Plan #1:
 
 I am currently polishing up (with plans of releasing) a solution to enforce the Google Authenticator challenge at the field-level in PeopleSoft.  This involved writing code on the web server to mask sensitive values and wrap the values in a clickable link. I previously demoed a (rough) version of this functionality [in this post](https://www.peoplesoftmods.com/servlet-filters/servlet-filters-in-peoplesoft/), but below is screenshot of what I am referring to.
 
-<img class="alignnone wp-image-569 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/11aFieldLevelChallenge.png" alt="FieldLevelChallenge" width="860" height="663" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/08/11aFieldLevelChallenge.png 860w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/11aFieldLevelChallenge-300x231.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/11aFieldLevelChallenge-768x592.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2016/08/11aFieldLevelChallenge-493x380.png 493w" sizes="(max-width: 860px) 100vw, 860px" />
+<img class="alignnone wp-image-569 size-full" src="/assets/images/2016/08/11aFieldLevelChallenge.png" alt="FieldLevelChallenge" width="860" height="663" srcset="/assets/images/2016/08/11aFieldLevelChallenge.png 860w, /assets/images/2016/08/11aFieldLevelChallenge-300x231.png 300w, /assets/images/2016/08/11aFieldLevelChallenge-768x592.png 768w, /assets/images/2016/08/11aFieldLevelChallenge-493x380.png 493w" sizes="(max-width: 860px) 100vw, 860px" />
 
 Clicking the lock icon will invoke a modal prompt to ask for a Google Authenticator TOTP.  If the user inputs a correct TOTP, then the sensitive value will be revealed.  I believe that enforcing the two-step verification in this manner is the most desirable way with respect to providing a good user experience.  However, implementing this particular solution is very challenging from a technical perspective.  Read [this post](https://www.peoplesoftmods.com/servlet-filters/how-to-set-up-a-data-masking-servlet-filter/) to learn how to achieve this type of field-level data masking solution.
 

@@ -24,7 +24,7 @@ After performing the security setup, you can login as the privileged user and in
 
 And you should get a QR code for the logged in user:
 
-[<img class="alignnone size-full wp-image-1165" src="https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png" alt="QR Code" width="798" height="471" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png 798w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-300x177.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-768x453.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code-644x380.png 644w" sizes="(max-width: 798px) 100vw, 798px" />](https://www.peoplesoftmods.com/wp-content/uploads/2017/09/QR-Code.png)
+[<img class="alignnone size-full wp-image-1165" src="/assets/images/2017/09/QR-Code.png" alt="QR Code" width="798" height="471" srcset="/assets/images/2017/09/QR-Code.png 798w, /assets/images/2017/09/QR-Code-300x177.png 300w, /assets/images/2017/09/QR-Code-768x453.png 768w, /assets/images/2017/09/QR-Code-644x380.png 644w" sizes="(max-width: 798px) 100vw, 798px" />](/assets/images/2017/09/QR-Code.png)
 
 This QR code can be scanned into a mobile authenticator application and it should immediately start generating TOTPs.
 

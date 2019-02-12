@@ -34,7 +34,7 @@ Adding this intermediate step to the authentication process is a delivered funct
 First, we need to create the custom PeopleSoft page that we want to serve as the intermediate page that will reside in between the login page and the home page.  This will be the page that users will be redirected to upon successful PeopleSoft login.  This page will be very generic for this part of the tutorial, but it will be expanded on later.  A page with some static text and a button will be all that is needed for now.
 
 <div id="attachment_57" style="width: 626px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/PS_Page.png" rel="attachment wp-att-57"><img class="size-full wp-image-57" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/PS_Page.png" alt="Custom PeopleSoft Page" width="616" height="421" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/PS_Page.png 616w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/PS_Page-300x205.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/PS_Page-556x380.png 556w" sizes="(max-width: 616px) 100vw, 616px" /></a>
+  <a href="/assets/images/2016/05/PS_Page.png" rel="attachment wp-att-57"><img class="size-full wp-image-57" src="/assets/images/2016/05/PS_Page.png" alt="Custom PeopleSoft Page" width="616" height="421" srcset="/assets/images/2016/05/PS_Page.png 616w, /assets/images/2016/05/PS_Page-300x205.png 300w, /assets/images/2016/05/PS_Page-556x380.png 556w" sizes="(max-width: 616px) 100vw, 616px" /></a>
   
   <p class="wp-caption-text">
     Custom PeopleSoft Page
@@ -44,7 +44,7 @@ First, we need to create the custom PeopleSoft page that we want to serve as the
 The only functionality that the page needs to have for now is to be able to write a cookie to the user’s browser and redirect the user to the home page.  To achieve this, we will add some PeopleCode behind the button on the FieldEdit event.  This code will write a cookie named _PSM\_2FA\_TOKEN_ and it will redirect the users to the home page when they click the button.  We will see why we are writing this cookie when we get into the Signon PeopleCode.
 
 <div id="attachment_58" style="width: 1180px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code.png" rel="attachment wp-att-58"><img class="size-full wp-image-58" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code.png" alt="Field Edit PeopleCode Behind the Button" width="1170" height="270" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code.png 1170w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code-300x69.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code-768x177.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Button_Code-1024x236.png 1024w" sizes="(max-width: 1170px) 100vw, 1170px" /></a>
+  <a href="/assets/images/2016/05/Button_Code.png" rel="attachment wp-att-58"><img class="size-full wp-image-58" src="/assets/images/2016/05/Button_Code.png" alt="Field Edit PeopleCode Behind the Button" width="1170" height="270" srcset="/assets/images/2016/05/Button_Code.png 1170w, /assets/images/2016/05/Button_Code-300x69.png 300w, /assets/images/2016/05/Button_Code-768x177.png 768w, /assets/images/2016/05/Button_Code-1024x236.png 1024w" sizes="(max-width: 1170px) 100vw, 1170px" /></a>
   
   <p class="wp-caption-text">
     Button FieldEdit PeopleCode
@@ -56,7 +56,7 @@ Once this is complete, then all that is needed is to add this page to a componen
 Now that the custom page is setup, we need to do the necessary actions to be able to redirect to this page after login.  The first thing that we need to do is make a change to the web profile.  Specifically, we need to set the _Signon Result Doc Page_ field under the _Look and Feel_ tab of the web profile to _signonresultdocredirect.html_.  Note: once this is completed you need to bounce the web server for the changes on the web profile to work.
 
 <div id="attachment_59" style="width: 768px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Web_Profile.png" rel="attachment wp-att-59"><img class="size-full wp-image-59" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Web_Profile.png" alt="Web Profile Configuration" width="758" height="825" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Web_Profile.png 758w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Web_Profile-276x300.png 276w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Web_Profile-349x380.png 349w" sizes="(max-width: 758px) 100vw, 758px" /></a>
+  <a href="/assets/images/2016/05/Web_Profile.png" rel="attachment wp-att-59"><img class="size-full wp-image-59" src="/assets/images/2016/05/Web_Profile.png" alt="Web Profile Configuration" width="758" height="825" srcset="/assets/images/2016/05/Web_Profile.png 758w, /assets/images/2016/05/Web_Profile-276x300.png 276w, /assets/images/2016/05/Web_Profile-349x380.png 349w" sizes="(max-width: 758px) 100vw, 758px" /></a>
   
   <p class="wp-caption-text">
     Web Profile Configuration
@@ -68,7 +68,7 @@ In this next section of the tutorial, I am modifying existing Signon PeopleCod
 What we need to do next is determine which Signon PeopleCode functions are being used.  To achieve this head over to the navigation: _Main Menu -> PeopleTools -> Security -> Security Objects -> Signon PeopleCode_. Make note of the functions that have the enabled checkbox checked.
 
 <div id="attachment_60" style="width: 955px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions.png" rel="attachment wp-att-60"><img class="size-full wp-image-60" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions.png" alt="Signon PeopleCode Functions" width="945" height="494" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions.png 945w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions-300x157.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions-768x401.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Functions-727x380.png 727w" sizes="(max-width: 945px) 100vw, 945px" /></a>
+  <a href="/assets/images/2016/05/Functions.png" rel="attachment wp-att-60"><img class="size-full wp-image-60" src="/assets/images/2016/05/Functions.png" alt="Signon PeopleCode Functions" width="945" height="494" srcset="/assets/images/2016/05/Functions.png 945w, /assets/images/2016/05/Functions-300x157.png 300w, /assets/images/2016/05/Functions-768x401.png 768w, /assets/images/2016/05/Functions-727x380.png 727w" sizes="(max-width: 945px) 100vw, 945px" /></a>
   
   <p class="wp-caption-text">
     Signon PeopleCode Functions
@@ -78,7 +78,7 @@ What we need to do next is determine which Signon PeopleCode functions are being
 Lastly, we are going to need to modify all of the enabled Signon PeopleCode functions.  Throughout the Signon PeopleCode functions, there are going to be calls to a function named _SetAuthenticationResult_. What we need to do is modify the call to this function by changing the third parameter in the function call.  So the code should go from looking like this:
 
 <div id="attachment_61" style="width: 524px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_Before.png" rel="attachment wp-att-61"><img class="size-full wp-image-61" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_Before.png" alt="Delivered Function Call" width="514" height="16" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_Before.png 514w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_Before-300x9.png 300w" sizes="(max-width: 514px) 100vw, 514px" /></a>
+  <a href="/assets/images/2016/05/Code_Before.png" rel="attachment wp-att-61"><img class="size-full wp-image-61" src="/assets/images/2016/05/Code_Before.png" alt="Delivered Function Call" width="514" height="16" srcset="/assets/images/2016/05/Code_Before.png 514w, /assets/images/2016/05/Code_Before-300x9.png 300w" sizes="(max-width: 514px) 100vw, 514px" /></a>
   
   <p class="wp-caption-text">
     Delivered Function Call
@@ -88,7 +88,7 @@ Lastly, we are going to need to modify all of the enabled Signon PeopleCode func
 To this:
 
 <div id="attachment_62" style="width: 874px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_After.png" rel="attachment wp-att-62"><img class="size-full wp-image-62" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_After.png" alt="Modified Function Call" width="864" height="154" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_After.png 864w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_After-300x53.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/05/Code_After-768x137.png 768w" sizes="(max-width: 864px) 100vw, 864px" /></a>
+  <a href="/assets/images/2016/05/Code_After.png" rel="attachment wp-att-62"><img class="size-full wp-image-62" src="/assets/images/2016/05/Code_After.png" alt="Modified Function Call" width="864" height="154" srcset="/assets/images/2016/05/Code_After.png 864w, /assets/images/2016/05/Code_After-300x53.png 300w, /assets/images/2016/05/Code_After-768x137.png 768w" sizes="(max-width: 864px) 100vw, 864px" /></a>
   
   <p class="wp-caption-text">
     Modified Function Call

@@ -104,7 +104,7 @@ categories:
 Here is the flow of the authentication process. The start is the login page and the end is the home page.
 
 <div id="attachment_141" style="width: 831px" class="wp-caption alignnone">
-  <a href="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" rel="attachment wp-att-141"><img class="wp-image-141 size-full" src="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png" alt="Two-Factor Authentication in PeopleSoft Flowchart" width="821" height="630" srcset="https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1.png 821w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-300x230.png 300w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-768x589.png 768w, https://www.peoplesoftmods.com/wp-content/uploads/2016/02/2FA_PeopleSoft_Flowchart-1-495x380.png 495w" sizes="(max-width: 821px) 100vw, 821px" /></a>
+  <a href="/assets/images/2016/02/2FA_PeopleSoft_Flowchart-1.png" rel="attachment wp-att-141"><img class="wp-image-141 size-full" src="/assets/images/2016/02/2FA_PeopleSoft_Flowchart-1.png" alt="Two-Factor Authentication in PeopleSoft Flowchart" width="821" height="630" srcset="/assets/images/2016/02/2FA_PeopleSoft_Flowchart-1.png 821w, /assets/images/2016/02/2FA_PeopleSoft_Flowchart-1-300x230.png 300w, /assets/images/2016/02/2FA_PeopleSoft_Flowchart-1-768x589.png 768w, /assets/images/2016/02/2FA_PeopleSoft_Flowchart-1-495x380.png 495w" sizes="(max-width: 821px) 100vw, 821px" /></a>
   
   <p class="wp-caption-text">
     Two-Factor Authentication in PeopleSoft Flowchart
