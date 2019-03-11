@@ -1,9 +1,9 @@
 ---
 id: 1096
-title: Online PeopleCode Editor Project
+title: Online PeopleCode Event Editor
 date: 2017-08-31T16:00:06+00:00
 guid: https://www.peoplesoftmods.com/?p=1096
-permalink: /tips-and-tricks/online-peoplecode-editor-project/
+permalink: /tips-and-tricks/online-peoplecode-event-editor/
 categories:
   - Tips and Tricks
 ---
