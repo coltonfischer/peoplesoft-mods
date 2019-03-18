@@ -22,7 +22,7 @@ And the other application class will be mapped to the component level post build
 
 I have included all of the applicable objects for this solution in an App Designer project.
 
-<span style="text-decoration: underline;"><strong><a href="http://peoplesoftmods.com/Development/PSM_BREADCRUMB_NAV.zip">CLICK HERE</a></strong></span> to download the project.
+[<span style="text-decoration: underline;"><strong>CLICK HERE</strong></span>](/assets/downloads/PSM_BREADCRUMB_NAV.zip) to download the project.
 
 **Project Overview:**
 
