@@ -15,7 +15,7 @@ There are various techniques to enforce multi-factor authentication in web appli
 
 This project demonstrates TOTP validation in the context of a two-factor authentication (2FA) enrollment process. This 2FA enrollment utility can be used in a self service manner to allow users to setup and enable 2FA enforcement on their accounts. If you are interesting in using this project, then perform the following installation steps.
 
-  * [Download](/Development/PSM_2FA_ENROLLMENT.zip) and Import Project into App Designer
+  * [Download](/assets/downloads/PSM_2FA_ENROLLMENT.zip) and Import Project into App Designer
   * Build Project (Create Table)
   * Assign _PSM_2FA_ Permission List to User Role
 
