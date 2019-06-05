@@ -1,7 +1,8 @@
 # Command to start on workspace startup (optional)
 tasks:
   - init: gem install jekyll bundler
-    command: bundle install
+    init: bundle install
+    command: bundle exec jekyll serve
 # Ports to expose on workspace startup (optional)
 ports:
   - port: 4000
