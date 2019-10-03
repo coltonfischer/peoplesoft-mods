@@ -103,7 +103,7 @@ method GetLastNavFolder
 
    Local ApiObject &oPortal = PortalOpen();
 
-   Local ApiObject &oCref = &oPortal.FindCRefByURL(&psCurrentUrl);
+   Local ApiObject &oCref = &oPortal.FindCRefForURL(&psCurrentUrl);
 
    If &oCref = Null Then
       &oPortal.close();
