@@ -56,7 +56,7 @@ staticman:
   endpoint               : https://staticman-peoplesoftmods.herokuapp.com/v3/entry/github/ # URL of your own deployment with trailing slash, will fallback to the public instance
 reCaptcha:
   siteKey                : "6LffKAkTAAAAACvkzc5Lqujljf7yCbLNnYp1qhm4"
-  secret                 : "cUnwiUQjRwQaztidi3jmNFbtLvNrSAA8KNqL6icgzlwGgtFe97BNpNuSaUZ/cBASvdcN4c5IcnprhuGGdbugDF+4ry61ONTYqxy6pzY931ddnc2QJUqdBgPBgSNMa1hZmYTnh6hZiUzi79vgc0uwPfVFKH7DZAT2bfT66yF7CUsx1OnYoHsHl+V0v8PwJieij15l9mPGTLbuufJdTRAfcse+VuOZEkSZW4/GQ/H+9fRH0b0Vh4Lzl56brxJM+oVkMAJn6OBznZ0VQmrvWcvq4m1ml0zT6/X5xeBZudxvBzIcxOMxKmYFhOyUONbn8TrpN/mRHtSuq0QRJ0SchOGuUQ=="
+  secret                 : "XjE3WSNGjkDlLgcOngNgVNCXUkICQkxN+erMFn8HmSODHrnTH0IuljzKrafparabWRvekAWLh37LL4Oi6jEIRxZepMEHPG9an+PXZhbT7nHwmq5Hz+6ugQFicyWejYfHfcck4knaDQ9J9ZcHqSNjwFvx/YDBW3jbIYOGmKMh5J741fXuYKT0U7yX1tK6KFBnLTIMalOJCWekCXsEFlj6amREN7skvHEa/krEgyeUNnbuUQMwLnkpJflDiN9INjIXjAd4LeMcjZreJMcwcJsjJcU9frrR4wd0YEFW/l8RgCyXFP2+xbztss8thoNdCo6KaAfBFi6RwKU5ODF0d1dq2Q=="
 atom_feed:
   path                   : # blank (default) uses feed.xml
 search                   : true # true, false (default)
