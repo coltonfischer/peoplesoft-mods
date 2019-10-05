@@ -1,0 +1,47 @@
+name: Colton Fischer
+date: '2017-05-02 06:59:26'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  Hello Sree.  Good to know that you solved your Nexmo communication issue. As
+  for how did I create the app designer project, I assume you are referring to
+  how I created the necessary objects needed to consume a REST web service from
+  PeopleSoft?  There are some different ways to consume 3rd party web services
+  in PeopleSoft and this example uses document-based messaging with Integration
+  Broker for the communication.  To do this, I had to create the following in
+  the PeopleSoft PIA:
+
+
+  Documents
+
+  Messages
+
+  Service
+
+  Service operation
+
+  PeopleCode Program
+
+
+  There are some really good examples on creating the necessary objects for REST
+  web services in PeopleSoft.  Here is <a
+  href="http://www.cedarhillsgroup.com/knowledge-base/kbarticles/PeopleSoft-REST-web-service-start-to-finish"
+  target="_blank" rel="nofollow">one by Chris Malek</a> and here is <a
+  href="https://www.linkedin.com/pulse/how-create-post-json-rest-api-peoplesoft-jose-ponce"
+  target="_blank" rel="nofollow">another by Jose Ponce</a>.  The only thing that
+  you want to do differently is uncheck the “Is Provider” checkbox when you are
+  creating the service since you are consuming a service and not providing one. 
+  Here are a couple of PeopleBook references that may be helpful as well:
+
+
+  <a
+  href="https://docs.oracle.com/cd/E58500_01/pt854pbh1/eng/pt/tibr/task_ManagingConsumerRESTServiceOperations-627ffc.html#topofpage"
+  target="_blank" rel="nofollow">Managing Consumer REST Service Operations</a>
+
+  <a
+  href="https://docs.oracle.com/cd/E58500_01/pt854pbh1/eng/pt/tibr/task_UsingPeopleCodetoManageRESTServiceOperations-b48000.html#topofpage"
+  target="_blank" rel="nofollow">Using PeopleCode to Manage REST Service
+  Operations</a>
+
+
+  Please let me know if you have any other questions.
+email: 4d496aa46c2247876cdd9588b8128ea0

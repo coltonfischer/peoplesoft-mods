@@ -1,0 +1,13 @@
+name: Colton Fischer
+date: '2017-10-14 07:24:52'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  I received the message "The imported image size exceeds the recommended
+  maximum image size of 32,000 bytes." when I uploaded the image into App
+  Designer.  I clicked OK and it still let me save and use the image object.  It
+  appears that having image sizes less than 32,000 bytes is a recommendation and
+  not a requirement.  However, it is possible that your database has a limit on
+  the sizes of images that it will store. If this is the case, then you will
+  need to use smaller image sizes or configure your database to allow storage of
+  larger images.  I hope this helps.
+email: 4d496aa46c2247876cdd9588b8128ea0

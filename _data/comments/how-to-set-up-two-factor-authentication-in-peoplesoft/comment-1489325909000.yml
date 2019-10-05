@@ -1,0 +1,11 @@
+name: Colton Fischer
+date: '2017-03-12 13:38:29'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  It is possible that the domain that the PSM_2FA_TOKEN cookie is being written
+  for is incorrect.  You can look at the PeopleCode that sets the cookie's
+  domain.  I believe that the code is currently referencing the authentication
+  domain that is specified on the web profile.  Make sue that the domain that
+  the cookie is being written for is the same domain as the other application
+  cookies such as the PS_TOKEN.
+email: 4d496aa46c2247876cdd9588b8128ea0

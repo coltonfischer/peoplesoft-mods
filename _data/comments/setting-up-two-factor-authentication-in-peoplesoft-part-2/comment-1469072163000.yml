@@ -1,0 +1,10 @@
+name: Colton Fischer
+date: '2016-07-21 03:36:03'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  When I did my testing with this project I did not find that the user could
+  bypass the 2FA page in that manner.  When you attempt to access a different
+  URL from the 2FA page, the sign on PeopleCode fires again.  The sign on
+  PeopleCode sees that you do not have the 2FA token so it redirects you back to
+  the 2FA page.  Please let me know if your findings are different.
+email: a6e891dda374b48f99b3e42275161706

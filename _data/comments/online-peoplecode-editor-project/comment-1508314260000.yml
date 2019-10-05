@@ -1,0 +1,26 @@
+name: Colton Fischer
+date: '2017-10-18 08:11:00'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  Thanks for the details.  Unfortunately I have not had the chance to play with
+  this utility on PeopleTools 8.53.  I have only used it on 8.55 and 8.56.  It
+  is likely that your Tools version is what is causing the error.  Hopefully
+  someone else will chime in with their experiences of using this utility on
+  older Tools to confirm this.
+
+
+  In the meantime I would suggest exploring if there are any delivered usages of
+  %Metadata:PeopleCodeProgram in your 8.53 environment.  You can go to App
+  Designer > Edit > Find In..., paste in "%Metadata:PeopleCodeProgram" in the
+  "Find What" field, select "Entire Database" for the "Project" field, and click
+  the Find button.  This will show you if the delivered code makes use of the
+  PeopleCodeProgram sub package.  If you happen to find references, then look
+  and see if they ever call the "UpdateProgram" method.  This will tell you the
+  proper usage of the method for the Tools that your environment is on.  It is
+  possible that it is something simple like the method taking fewer parameters
+  in the older Tools than in the Tools that I created this utility in.
+
+
+  Please let me know if you have any other questions and if you are able to get
+  this to work.
+email: 4d496aa46c2247876cdd9588b8128ea0

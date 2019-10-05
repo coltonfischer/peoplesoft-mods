@@ -1,0 +1,5 @@
+name: Colton Fischer
+date: '2018-02-25 14:41:56'
+url: 'http://www.peoplesoftmods.com'
+message: "You should be able to maintain multilingual content on the sign in page by using the JavaScript injection technique that I demonstrated in this post.\r\n\r\nYou can use JavaScript to target the language selection drop down element (the element’s id is ptlangsel) to determine the user’s selected language, evaluate the selected language code, and set the content (labels, etc.) to the language-specific text accordingly.   You would also need to create an event listener in the JavaScript to change the content when the user selects a different language from the drop down."
+email: 4d496aa46c2247876cdd9588b8128ea0

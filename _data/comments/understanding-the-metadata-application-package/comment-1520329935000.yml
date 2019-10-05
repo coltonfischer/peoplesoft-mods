@@ -1,0 +1,5 @@
+name: Curtis Melnick
+date: '2018-03-06 09:52:15'
+url: ''
+message: "Hi Colton.  Stumbled on this post at the right time, as I'm building a tool to update comments in the properties of objects (DESCRLONG) in an automated fashion.\r\n\r\nWhat I confirmed is that in fact the %metadata classes correctly update the VERSION values (as far as I can see anyway) - which is what I had hoped for.  It also updates the LASTUPDDTTM field (haven't tested the LASTUPDOPRID but I suspect that it will also be handled appropriately).\r\n\r\nMuch safer than just updating the DESCRLONG fields using SQL. and then trying to update the cache."
+email: e77d42189955d7b9ce0f4aabe671d9d6

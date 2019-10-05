@@ -1,0 +1,5 @@
+name: Colton Fischer
+date: '2016-12-12 16:47:26'
+url: 'http://www.peoplesoftmods.com'
+message: "Hi Jonathan,\r\n\r\nThanks for reading and sharing your code.  This is definitely the missing piece that I’ve needed to make my response-manipulating servlet filters a viable solution.  I will look into incorporating this into my filters that modify response data.  Thanks again for sharing.\r\n\r\nUPDATE:\r\n\r\nI made <a href=\"http://www.peoplesoftmods.com/servlet-filters/response-compression-with-custom-servlet-filters/\">a post here</a> that demonstrates how to implement a custom response compression servlet filter that makes use of the code that you shared here.  This filter overrides the delivered compression capabilities so that your response-manipulating servlet filters do not have to worry about decompressing responses before manipulation and re compressing after manipulation."
+email: a6e891dda374b48f99b3e42275161706

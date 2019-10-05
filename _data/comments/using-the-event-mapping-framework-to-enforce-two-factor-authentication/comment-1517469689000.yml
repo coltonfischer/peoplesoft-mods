@@ -1,0 +1,5 @@
+name: Colton Fischer
+date: '2018-02-01 07:21:29'
+url: 'http://www.peoplesoftmods.com'
+message: "Hi Naveena, performing redirections (like this solution does) is tricky in Sign On PeopleCode.  Sign On PeopleCode offers the ResultDoc parameter of the SetAuthenticationResult function that allows us to redirect someone after signing in.   However, I found this to not be very secure when your application serves Fluid pages.  More details on this Here: http://www.peoplesoftmods.com/2fa/setting-up-two-factor-authentication-in-peoplesoft-part-2/#comment-21\r\n\r\nI suppose if your application does not server any Fluid pages, then you could possibly apply the techniques used in this solution to the sign on process.  However,  I would personally advise you to think about the usability impacts of requiring users to perform 2FA at login time.  "
+email: 4d496aa46c2247876cdd9588b8128ea0

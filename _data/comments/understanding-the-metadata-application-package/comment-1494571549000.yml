@@ -1,0 +1,10 @@
+name: Colton Fischer
+date: '2017-05-12 06:45:49'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  The class discovery was a trial and error process unfortunately...  Creating
+  records is tricky because a lot of the default record properties have to be
+  set manually in the code.  So if you do not set all of the properties before
+  you save the record definition, then App Designer will complain when you open
+  the definition.
+email: 4d496aa46c2247876cdd9588b8128ea0

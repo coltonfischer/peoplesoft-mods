@@ -1,0 +1,5 @@
+name: AB Krishna
+date: '2018-02-09 04:56:01'
+url: 'http://TowerInternational.com'
+message: "Thank you for the blog with so much of details - I am implementing your solution for our self serviice users \r\n After the user is authenticated , I am redirecting the user to custom \"2 factor authentication\" page.. This is happening from part of sign-on peoplecode func-lib  . We see some body can interject/hack and bypass 2 factor page (with the url manipulation) . Is it possible to add a role for self service user using Peoplecode only after complete the  2 factor page successfully (until that time user has only access to 2 factor page only) I appreciate your input/comment"
+email: b51d0cc98f70f53d97a6e99114f10592

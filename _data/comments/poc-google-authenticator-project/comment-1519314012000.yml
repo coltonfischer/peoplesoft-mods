@@ -1,0 +1,7 @@
+name: Andrew Crawford
+date: '2018-02-22 15:40:12'
+url: ''
+message: >-
+  8.56 comes with commons-codec-1.2. This does not seem to include Base32, only
+  has Base64.
+email: abd9bd1ff807d0434beaa7401cfd4a20
