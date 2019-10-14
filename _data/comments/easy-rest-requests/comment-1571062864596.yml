@@ -1,0 +1,7 @@
+_id: dafcc9b0-ee8d-11e9-a053-23ade2fd477f
+message: "Hi Raju.  HTTP `4XX` errors usually indicate that the request is invalid is some way, while HTTP `5XX` indicates that something went wrong on the external server.  You should expect the responses for `4XX` and `5XX` status to be blank.  \r\n\r\nThe `4XX` and `5XX` type responses are fatal.  You could always wrap the request in a `Try-Catch` to catch the `ExternalApplicationException`, however there is not much \"recovery\" that can be done for these types of errors.\r\n\r\nI would suggest reviewing the REST API to ensure the requests are valid.  Valid requests should always result in non-`4XX` response.  The external server logs should be reviewed to determine the reason for the `5XX` responses.  \r\n\r\nI hope this helps."
+name: Colton Fischer
+email: 4d496aa46c2247876cdd9588b8128ea0
+url: 'https://www.peoplesoftmods.com/'
+hidden: ''
+date: '2019-10-14T14:21:04.587Z'
