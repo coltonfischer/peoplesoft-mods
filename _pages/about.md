@@ -20,4 +20,14 @@ My name is Colton Fischer and I am a software developer that enjoys exploring th
 
 ## Disclaimer
 
-Any views or opinions represented in this site are personal and belong solely to myself and do not represent those of people, institutions or organizations that I may or may not be associated with in professional or personal capacity, unless explicitly stated. All content provided on this site is for informational purposes only. I make no representations as to the accuracy or completeness of any information on this site or found by following any link on this site. I am not liable for any errors or omissions in this information nor for the availability of this information. I am not liable for any losses, injuries, or damages from the display or use of this information.
+{% capture notice-text %}
+**Important** ⚠️
+
+Any views or opinions represented in this site are personal and belong solely to myself and do not represent those of people, institutions or organizations that I may or may not be associated with in professional or personal capacity, unless explicitly stated.
+
+All content provided on this site is for informational purposes only. I make no representations as to the accuracy or completeness of any information on this site or found by following any link on this site. I am not liable for any errors or omissions in this information nor for the availability of this information. I am not liable for any losses, injuries, or damages from the display or use of this information.
+{% endcapture %}
+
+<div class="notice--warning">
+  {{ notice-text | markdownify }}
+</div>
