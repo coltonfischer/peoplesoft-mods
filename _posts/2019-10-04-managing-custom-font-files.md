@@ -17,7 +17,7 @@ applications.  An easy way to make use of a custom font is to link to a third-pa
 font files.
 
 
-```CSS
+```css
 @font-face {
   font-family: 'Mansalva';
   font-style: normal;
@@ -40,7 +40,7 @@ PeopleSoft web server.  This requires the web font file(s) to be placed in an ac
 the `fonts` directory) on the server to be consumed from the application CSS.
 
 
-```CSS
+```css
 @font-face {
   font-family: 'Mansalva';
   font-style: normal;
@@ -66,7 +66,7 @@ objects within App Designer.  These Image objects can be referenced in the appli
 the `%Image` meta-function.
 
 
-```CSS
+```css
 @font-face {
   font-family: 'Mansalva';
   font-style: normal;
