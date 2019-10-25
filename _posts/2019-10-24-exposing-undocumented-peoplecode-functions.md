@@ -42,13 +42,13 @@ for (var i = 0; i < classMethods.length; i++) {
    method.returnType = classMethods[i].getReturnType().getSimpleName();
 
    var parameters = [];
-	var paramType = classMethods[i].getParameterTypes();
-
-	for (var j = 0; j < paramType.length; j++) {
-	   var parameter = {};
-	   parameter.type = paramType[j].getSimpleName();
-	   parameters.push(parameter);
-	}
+   var paramType = classMethods[i].getParameterTypes();
+   
+   for (var j = 0; j < paramType.length; j++) {
+      var parameter = {};
+      parameter.type = paramType[j].getSimpleName();
+      parameters.push(parameter);
+   }
 
    method.parameters = parameters;
    methods.push(method);
