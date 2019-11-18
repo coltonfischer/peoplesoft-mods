@@ -17,7 +17,7 @@ comments:
   # When allowedOrigins is defined, only requests sent from one of the domains
   # listed will be accepted. The origin is sent as part as the `options` object
   # (e.g. <input name="options[origin]" value="http://yourdomain.com/post1")
-  # allowedOrigins: ["yourdomain.com"]
+  allowedOrigins: ["peoplesoftmods.com"]
 
   # (*) REQUIRED
   #
@@ -61,24 +61,24 @@ comments:
   #   type: "comment"
 
   # Name of the site. Used in notification emails.
-  # name: "Your Site"
+  name: "PeopleSoft Mods"
 
   # Notification settings. When enabled, users can choose to receive notifications
   # via email when someone adds a reply or a new comment. This requires an account
   # with Mailgun, which you can get for free at http://mailgun.com.
-  # notifications:
+  notifications:
     # Enable notifications
-    # enabled: true
+    enabled: true
 
     # (!) ENCRYPTED
     #
     # Mailgun API key
-    # apiKey: ""
+    apiKey: "Cda9RHlZ79lySpyGd9IoyGs1uZATVtV5tos83XCdds33wEKxDuBJjQ5YcWda/8VIBzjYtT421CXrg33MqYTjWjOR/9K0WQ59IpePItTLMjbd/anmCj2d0Qe5vn6avBZnGZdrKr6HC0+6zlA1HW1NT3TKQcm1Efq6PRJTOx5D0Aqv4TP+Nh9D0COTmdBuGtUneUD/l026jM7AClukGBmt3bBpFxdPazGgl6RLE/lg016z0HWalaWe929CSlaWTQqYNsx8Ww8g/G9/qHuDEuI45QhoQbKRSRhPiFdFSjkzuC6Ua1rLgY4jE5XEaA2rMIqSlYgluVE3gxVgW0sLX8I/zQ=="
 
     # (!) ENCRYPTED
     #
     # Mailgun domain (encrypted)
-    # domain: ""
+    domain: "Zy7GzkSC9JNpP0zeLc0RVYokBpGk6P8zYMBSX7kjUoFf420HUT+MT6lMPXEbNgMYYyJBBYq2XNG3ghO6cpUnyGygWqWNxpb3WTWE5adz4WOCKRZKapZHrE2DZ94FtjuBOWDm801bH22Poo/QmENHQpOFkb7PuMkTOxiJsP83tK8wulA/6dbSC0C9gEof/w4Q0rLGjGU5mEvkG+SCYAefrPERxoXqoi18bbTGyy0aNUweOkEzMjfsOzW08YJWF2E0rna3QZBkFLxJA28UrxsqZehIYx+1a3St1qKVrS6/UaI+FdExAvl593xYXzMysFnwabswGqaHVIvmROAGRpofOA=="
 
   # (*) REQUIRED
   #
