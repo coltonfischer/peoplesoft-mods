@@ -80,6 +80,8 @@ comments:
     # Mailgun domain (encrypted)
     domain: "Zy7GzkSC9JNpP0zeLc0RVYokBpGk6P8zYMBSX7kjUoFf420HUT+MT6lMPXEbNgMYYyJBBYq2XNG3ghO6cpUnyGygWqWNxpb3WTWE5adz4WOCKRZKapZHrE2DZ94FtjuBOWDm801bH22Poo/QmENHQpOFkb7PuMkTOxiJsP83tK8wulA/6dbSC0C9gEof/w4Q0rLGjGU5mEvkG+SCYAefrPERxoXqoi18bbTGyy0aNUweOkEzMjfsOzW08YJWF2E0rna3QZBkFLxJA28UrxsqZehIYx+1a3St1qKVrS6/UaI+FdExAvl593xYXzMysFnwabswGqaHVIvmROAGRpofOA=="
 
+    fromAddress: "noreply@peoplesoftmods.com"
+
   # (*) REQUIRED
   #
   # Destination path (directory) for the data files. Accepts placeholders.
