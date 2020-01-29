@@ -1,6 +1,6 @@
 _id: 0ee99f70-41b1-11ea-87f4-895cbf4d1879
 _parent: 'https://www.peoplesoftmods.com/2fa/generating-qr-codes-in-peoplesoft/'
-message: "Hi Colton. Great post! I was able to generate the QR code thanks to you. I just want to ask for your opinion. What I want to do next is to save the generated QR Code(.svg) as an image (.jpg) into the database as a blob. The end-goal that I would want to achieve is have the QR code printed in the PDF output of my BI Publisher.\r\n\r\nI tried converting the .svg file to base64, and had the field in the RTF template coded below but still did not work:```\r\n<fo:instream-foreign-object content-type=\"image/svg+xml\">\r\n <xsl:value-of select=\"fld_PT_URLTEXT\"/>\r\n</fo:instream-foreign-object>```"
+message: "Hi Colton. Great post! I was able to generate the QR code thanks to you. I just want to ask for your opinion. What I want to do next is to save the generated QR Code(.svg) as an image (.jpg) into the database as a blob. The end-goal that I would want to achieve is have the QR code printed in the PDF output of my BI Publisher.\r\n\r\nI tried converting the .svg file to base64, and had the field in the RTF template coded below but still did not work:\r\n<fo:instream-foreign-object content-type=\"image/svg+xml\">\r\n <xsl:value-of select=\"fld_PT_URLTEXT\"/>\r\n</fo:instream-foreign-object>"
 name: James Hufton
 email: 3f9d1ab2dc5a22f91aef9c4b2c35d1e2
 url: ''
