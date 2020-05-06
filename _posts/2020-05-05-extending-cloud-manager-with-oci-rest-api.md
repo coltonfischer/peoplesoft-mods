@@ -79,7 +79,7 @@ Local JavaObject &joJsonObject = &joOCICoreServices.getInstance(&sOCID);
 Return &joJsonObject.toString();
 ```
 
-#### OCIRestClient Class
+### OCIRestClient Class
 
 The `com.peoplesoft.pa.cl.infrastructure.oci.OCIRestClient` Class can be used to make generic REST requests to any of the OCI APIs.  This class is useful because it provides flexibility and it performs the request signatures on all requests.  The `OCIRestClient` offers the following methods for making generic REST requests to OCI API endpoints: doGet, doPost, doPut, and doDelete.  This class offers a lot of potential and really deserves a post on its own.  I will say that I had success in using this class to perform GET requests to the OCI API, but I experienced inconsistent results when attempting to perform a POST request.  I will wait to document this class any further until I prove it to be fully functional.
 
