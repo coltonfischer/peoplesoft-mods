@@ -1,7 +1,7 @@
 ---
 id: 1355
 title: Access Local PS Apps Publicly
-date: 2020-05-06T02:33:08+00:00
+date: 2020-05-12T01:53:33+00:00
 guid: http://www.peoplesoftmods.com/?p=1355
 permalink: /tips-and-tricks/access-local-ps-apps-publicly/
 tags:
