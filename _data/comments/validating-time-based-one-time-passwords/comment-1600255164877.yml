@@ -1,0 +1,12 @@
+_id: 79e5b7f0-f80e-11ea-a848-b5be223713cd
+_parent: 'https://www.peoplesoftmods.com/2fa/validating-time-based-one-time-passwords/'
+message: >-
+  If you are authenticating using google authenticator on a mobile device you
+  will also be able to use a programmable hardware tokens (such as the Deepnet
+  Security Diamond Token) as a way to authenticate using a hardware token rather
+  than requiring a mobile phone.
+name: phil chivers
+email: 7a1e0c8826a5e8240510989394fbe5cd
+url: 'https://deepnetsecurity.com/authenticators/one-time-password/safeid/'
+hidden: ''
+date: '2020-09-16T11:19:24.876Z'
