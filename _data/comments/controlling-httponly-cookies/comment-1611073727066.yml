@@ -1,0 +1,8 @@
+_id: 676ae650-5a73-11eb-a93f-c5f202fb9771
+_parent: 'https://www.peoplesoftmods.com/psadmin/controlling-httponly-cookies/'
+message: "Just discovered that I could not set the flags of two or more distinct cookies. Only the last cookie in the list ends up being set.\r\n\r\nApparently, any subsequent calls to SetHeader() to set a new Set-Cookie header will just overwrite the previous Set-Cookie header.\r\n\r\nI wish there were an AddHeader() method to append new Set-Cookie headers instead of overwriting the previous one.\r\n\r\nHave already bookmarked your awesome site!"
+name: Andrei Cuñada
+email: ac5a08117ebcfff1a4b1fe462a5e9806
+url: ''
+hidden: ''
+date: '2021-01-19T16:28:47.064Z'
