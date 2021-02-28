@@ -157,9 +157,14 @@
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="utterances-comments"></section>
     {% when "welcomments" %}
-      {% include comments-providers/welcomments/comments.html
-        api_url    = "https://welcomments.io/api"
-        website_id = "RFlWc4ieInIfrItM23Wh" %}
+      {% if site.comments.welcomments.website_id == "<FILL THIS IN>" %}
+        <h2>Welcomments configuration incomplete</h2>
+  <p>Replace the <code>&lt;FILL THIS IN&gt;</code> text in <code>_config.yml</code> with the <code>website_id</code> from the Welcomments console.</p>
+      {% else %}
+        {% include comments-providers/welcomments/comments.html
+          api_url    = "https://welcomments.io/api"
+          website_id = site.comments.welcomments.website_id %}
+      {% endif %}
     {% when "custom" %}
       <section id="custom-comments"></section>
   {% endcase %}

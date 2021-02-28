@@ -43,6 +43,8 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
+  welcomments:
+    website_id: "<FILL THIS IN>"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"
