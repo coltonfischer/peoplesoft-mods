@@ -1,0 +1,12 @@
+{
+  "id": "01B1V9GJRGJPJ46BN1JQDP25Z7",
+  "date": "2016-11-18T10:40:42.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Alexei,\n\nThank you very much for listening to the podcast and commenting here.  \n\nI definitely need to look at what the web profile component is doing to communicate config data to the web server.  This would teach me the best practice for communicating information from the application to the web server. \n \nMeanwhile, I have come up with a way to successfully communicate information from the application to the web server, but it is not necessarily ideal.  What I have done is created a JSP page on the web server that accepts an HTTP post and stores the posted data to a directory on the web server.  I am able to post data to this JSP page from a PeopleSoft component with the use of Integration Broker.  As I said, not ideal, but it does successfully communicate the information.\n\nI have found the bigger challenge to be the storage of the data on the web server and not so much the communication.  The data needs to be stored in a cached state so that the filter can reference the cached data in every call to the dofilter method.  Reading in the config data in the init method of the filter is not a viable option because a web server bounce would be required every time a change is made to the config data.  I am currently working on creating a cache manager in Java.  I will be sure to document my progress here.\n\nThanks,\nColton",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

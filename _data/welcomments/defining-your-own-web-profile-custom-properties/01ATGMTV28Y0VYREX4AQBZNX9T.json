@@ -1,0 +1,12 @@
+{
+  "id": "01ATGMTV28Y0VYREX4AQBZNX9T",
+  "date": "2016-08-19T08:37:01.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "You're welcome! I'm glad it was helpful.  I am not sure if you already know about this, but there is a nice extension for Chrome browsers called <a href=\"https://chrome.google.com/webstore/detail/ps-utilities/jajoopnifcliapcngocgiidifkmboemc?hl=en\" rel=\"nofollow\">PS Utilities</a> that is capable of giving you the record and field names of values on PeopleSoft pages.  With this utility, you can simply put your mouse over a value on the page and it will tell you the corresponding record and field.  This is much easier to do versus getting this information through app designer.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

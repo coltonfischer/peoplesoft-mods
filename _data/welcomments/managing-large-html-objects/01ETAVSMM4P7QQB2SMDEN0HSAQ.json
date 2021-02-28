@@ -1,0 +1,11 @@
+{
+  "id": "01ETAVSMM4P7QQB2SMDEN0HSAQ",
+  "date": "2020-12-24T17:12:28.548Z",
+  "author": {
+    "name": "Murugan"
+  },
+  "message": "Colton, Shri,\r\n\r\nThanks for sharing the tip. I wanted to get your thoughts on injecting JavaScript objects into a component. I am working on a customization, on the Supplier search page Supplier Id field value should be padded with zeros at prefix when we enter a value and tab out. for example, Supplier ID: 123 should be changed to 0000000123. Could you please advise the right place to inject Javascript to achieve this functionality.\r\n\r\nI tried Event mapping framework to inject JavaScript and it works perfectly. Can you share more information about this topic and advise the tips to achieve above functionality.",
+  "migrated_fields": {
+    "email": "770742986fddc3f92ea119ef38035100"
+  }
+}

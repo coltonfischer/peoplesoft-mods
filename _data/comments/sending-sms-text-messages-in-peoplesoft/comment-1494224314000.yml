@@ -1,9 +1,0 @@
-name: Colton Fischer
-date: '2017-05-08 06:18:34'
-url: 'http://www.peoplesoftmods.com'
-message: >-
-  This project uses document-based messages, therefore it contains some document
-  objects.  The documents module is not available on older Tools releases (pre
-  8.53, I think).  So this project will not work if you are on an older Tools
-  version.
-email: 4d496aa46c2247876cdd9588b8128ea0

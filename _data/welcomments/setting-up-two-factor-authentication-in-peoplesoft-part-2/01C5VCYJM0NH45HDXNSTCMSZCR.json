@@ -1,0 +1,12 @@
+{
+  "id": "01C5VCYJM0NH45HDXNSTCMSZCR",
+  "date": "2018-02-08T21:05:52.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Kim.  Yes, unfortunately something with newer Tools releases has caused this solution to be insecure.  My previous findings indicated that the insecurity only seemed to revolve around Fluid pages.  I was never able to bypass the 2FA page when pasting in a URL to a Classic page. However, given that you are on such a new Tools version, I would not recommend that you use this solution.  It does not seem that Oracle intends us to use the SetAuthenticationResult function's ResultDoc parameter as a protection measure for application access (even though this technique seemed to work very well in older Tools).  \n\nIn 8.55+ Tools, I recommend using <a href=\"http://www.peoplesoftmods.com/2fa/using-the-event-mapping-framework-to-enforce-two-factor-authentication/\">Event Mapping to inject Component Pre-Build code to enforce 2FA at the Component-level</a> rather than at login time.  This technique may not be very feasible to adopt depending on your business requirements.  Another (more challenging) option is to use a servlet filter to redirect users to perform 2FA when they request URL resources that require an additional authentication factor.  <a href=\"http://www.peoplesoftmods.com/category/servlet-filters/\">More on servlet filters here</a>.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

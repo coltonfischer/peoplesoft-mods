@@ -1,0 +1,11 @@
+{
+  "id": "01EC7EHNDN4XMYXYQ3QW8RQ7T0",
+  "date": "2020-07-02T09:43:26.901Z",
+  "author": {
+    "name": "Aditi"
+  },
+  "message": "Hi Colton,\r\nI am using CallRESTAPI method and passing parameters Third Party URL, PUT method, xml request message and Key (Not required for sandbox so it's blank in my case).\r\nAlso adding segment header keys the way I am doing it in Postman. In postman I am getting successful response but in PeopleSoft I am trying to achieve same using CallRESTAPI, I am getting error- 415- Unsupported Media Type.\r\n\r\nI checked Content-Type Header key being used in CallRESTAPI, it's same as we are using it in postman. Can you please help me with this",
+  "migrated_fields": {
+    "email": "50ca38a3e2881e28a95f5d7f460beb16"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "01AZF7ZDBG2TKK5K49S6WG4541",
+  "date": "2016-10-19T22:51:34.000",
+  "author": {
+    "name": "Ganesh Aithandal Muralidhar"
+  },
+  "message": "How do you integrate this notification framework. ? Notification framework already has templates, we just need to add the integration code and delivered notification SMS will sent.\r\nCan you let us know the steps to integrate with notification framework.",
+  "migrated_fields": {
+    "email": "dc7ff088423b20d82388571a51780aec"
+  }
+}

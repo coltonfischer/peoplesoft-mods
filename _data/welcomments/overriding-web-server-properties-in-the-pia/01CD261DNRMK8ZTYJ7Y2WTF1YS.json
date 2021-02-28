@@ -1,0 +1,11 @@
+{
+  "id": "01CD261DNRMK8ZTYJ7Y2WTF1YS",
+  "date": "2018-05-09T13:09:39.000",
+  "author": {
+    "name": "Rob G"
+  },
+  "message": "Hi Colton,\r\n\r\nVery informative, great way to do the customization to the login page.\r\n\r\nDid this for the current project I am on and we did run into a few things, when we removed the background as they wanted white, the text and the borders on the text boxes were all wrong, created a little JS function to alter the CSS on the fly (10 different CSS styles needed changes) and it worked like a charm.\r\n\r\nI also added some additional code to handle the branding of the timeout page as well with the same script.\r\n\r\nThanks again",
+  "migrated_fields": {
+    "email": "4f1c2e0bbc0d26cc823d4e1355b17d02"
+  }
+}

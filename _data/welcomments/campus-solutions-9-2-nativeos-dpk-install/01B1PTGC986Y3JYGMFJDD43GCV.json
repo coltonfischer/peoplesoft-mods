@@ -1,0 +1,12 @@
+{
+  "id": "01B1PTGC986Y3JYGMFJDD43GCV",
+  "date": "2016-11-16T17:01:29.000",
+  "author": {
+    "name": "David",
+    "website": "http://None"
+  },
+  "message": "Okay, that got me past the psadmin issue.  Now I cannot get any Oracle services to install.  No errors on the \"Install Windows Service\", just now Oracle services installed.  Is there a step missing?",
+  "migrated_fields": {
+    "email": "ae9b9db778eae4e0f5f3b2918ed80cad"
+  }
+}

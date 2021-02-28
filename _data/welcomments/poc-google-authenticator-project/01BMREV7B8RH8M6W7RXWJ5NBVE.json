@@ -1,0 +1,12 @@
+{
+  "id": "01BMREV7B8RH8M6W7RXWJ5NBVE",
+  "date": "2017-07-11T12:14:25.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Jared.  After importing the project and assigning the permissions, the only configured page that is needed is the delivered “Manage Related Content Service” page.  The path to this page is Main Menu > PeopleTools > Portal > Related Content Service > Manage Related Content Service.  Here you will map the PSM_ENFORCE_GAUTH service to the Component(s) that you want to enable 2FA on.  This should be the only configuration that is needed to get this to work.\nPlease let me know if this answers your question.  Also let me know if you are having any issues getting this project to work.  I’d be more than glad to help you get it working.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

@@ -1,5 +1,0 @@
-name: Sivananda Koya
-date: '2017-02-19 11:39:10'
-url: ''
-message: "Hi Colton,\r\n\r\nYour post is amazing.I have practically tried it out and it is working seamlessly with minor changes.\r\nA couple of things I did after importing your project to make it work in my case.\r\n1. For some reason, the role that is part of your project is not showing up in the prompt button while\r\n    adding the role to the user profile. I have created manually PSM_GAUTH role with your permission\r\n     list.\r\n2. I have modified time zone to \"UTC\" at  peopletools -&gt;  Utilities -&gt; Administration-&gt; peopletools \r\n    options page.\r\n\r\nThat's it. With those minor changes I was able to use google authenticator functionality.\r\n\r\nThanks a lot for this wonderful post"
-email: de0fd0e3765293091c6fd5ced5785a15

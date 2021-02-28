@@ -1,0 +1,11 @@
+{
+  "id": "01BWQDSG306J0G7Q61XSE3T1WG",
+  "date": "2017-10-18T12:42:20.000",
+  "author": {
+    "name": "Rama"
+  },
+  "message": "Hi,\r\n\r\nI queried PSPCMTXT table and found out one reference for %Metadata:PeopleCodeProgram and it looks like the syntax is correct. Thanks for the suggestion. I will keep working on this and let you know if I am able to make it work. Thanks!",
+  "migrated_fields": {
+    "email": "9cd0aea94040f04fae30933d2f84ac24"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "01DWV2KWWSNHNMJKK7XHNSWM8G",
+  "date": "2019-12-24T04:28:36.633Z",
+  "author": {
+    "name": "Saim Anwer"
+  },
+  "message": "Hi. Whenever I do any changes in PSMQRCodeSvg and then replace the original file. It starts giving error.\r\nI want Employee ID and some other information in QR Code.",
+  "migrated_fields": {
+    "email": "3badb4e0861eeac36a880230abd6f3f7"
+  }
+}

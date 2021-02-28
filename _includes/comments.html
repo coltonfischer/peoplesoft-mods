@@ -156,6 +156,10 @@
     {% when "utterances" %}
       <h4 class="page__comments-title">{{ comments_label }}</h4>
       <section id="utterances-comments"></section>
+    {% when "welcomments" %}
+      {% include comments-providers/welcomments/comments.html
+        api_url    = "https://welcomments.io/api"
+        website_id = "RFlWc4ieInIfrItM23Wh" %}
     {% when "custom" %}
       <section id="custom-comments"></section>
   {% endcase %}

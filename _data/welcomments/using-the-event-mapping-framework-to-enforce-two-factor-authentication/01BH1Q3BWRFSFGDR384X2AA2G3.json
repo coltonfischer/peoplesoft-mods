@@ -1,0 +1,12 @@
+{
+  "id": "01BH1Q3BWRFSFGDR384X2AA2G3",
+  "date": "2017-05-26T09:29:03.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "This is a really good question.  I think you should be able to pass search record field values as GET parameters in the URL to bypass search pages.  If this is the case, you might be able to do the following to bypass the search page after a successful 2FA challenge.\n\nDo the following in the PreBuild event that the 2FA code is running on before you redirect the user to perform 2FA:\n\n1.  Use the %Component variable to query the metadata tables to determine the names of the search record fields for the given component.\n2.  Parse the %Request object and extract the POSTed search record field values using the search record field names obtained in the previous step.\n3.  When generating the URL to redirect back to after a successful 2FA challenge,  include the search record field name-value pairs as GET parameters in the URL.\n\nIf this does indeed work, you need to be weary of the values that you are passing in as GET parameters.  Unlike POSTed values, GET parameter values tend to linger around for long periods in places such as server logs and browser history.  This can be a potential security concern for search records that contain sensitive input values.  If you pass these types of values as GET parameters, then there is a greater chance that these values can be stored in places that you do not want.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

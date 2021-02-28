@@ -1,5 +1,0 @@
-name: Shreevats
-date: '2016-08-14 08:47:37'
-url: ''
-message: "hi, i installed this on windows 7, I am getting the following error when i try to login to the PIA :CHECK APPSERVER LOGS. THE SITE BOOTED WITH INTERNAL DEFAULT SETTINGS, BECAUSE OF: bea.jolt.ServiceException: Invalid Session\r\nThe application server is down at this time.\r\n\r\nMoreover when i try to boot the domain using PSADMIN i get the following error: \"tmadmin is not recognized as an internal or external command,...\"\r\nAlso, when i try to open tuxedo command line from PSADMIN it gives me the same error as above alongwith \"Unable to Load tmadmin !\"\r\n\r\nCould you please help me fix this?"
-email: 77a726d4cb9c59b4faf8e5344694b910

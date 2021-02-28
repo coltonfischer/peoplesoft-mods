@@ -1,0 +1,12 @@
+{
+  "id": "01B56BKWV00H30GYK4CZ5WG1AC",
+  "date": "2016-12-30T00:36:12.000",
+  "author": {
+    "name": "KIRAN",
+    "website": "http://Kiran"
+  },
+  "message": "Wow, amazing article. Just one question on the IP being configured.\r\n\r\nIt captures the IP of the Proxy server if we have one before the webserver. How do we force it to capture the actual Client IP address in such cases?\r\n\r\nThanks.",
+  "migrated_fields": {
+    "email": "5be70be40d266e8235f3b62983ed5ceb"
+  }
+}

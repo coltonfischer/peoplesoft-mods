@@ -1,0 +1,12 @@
+{
+  "id": "01C9ZT4QCGXW4HGWKNZHAXXKPA",
+  "date": "2018-04-01T08:16:10.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "For the most part, I believe your proposed use case will work.  The only problem is that if you set the HPPC PeopleTools Personalization Option to Classic, then you lose the ability to use Event Mapping to inject the redirection code into PT_LANDINGPAGE Component.  If you set the HPPC value to Classic, then when any user clicks the Home link I believe they will be taken to the Classic Homepage (Something Like .../EMPLOYEE/HRMS/h/?tab=DEFAULT).  I am not sure how you would be able to conditionally redirect a Fluid user to the Fluid Homepage at that point.\n\nInstead, I would recommend setting the HPPC value to Fluid and then using the demonstrated Event Mapping technique to redirect the Classic users to the Classic Homepage.  This may not be desirable if the majority of users are \"Classic Users\", but it should work nonetheless.  Also, you are correct in that the HPTYPE URL parameter would be \"F\" instead of \"C\" if you want to land someone on the Fluid Homepage instead of the Classic one.\n\nPlease let me know if you have any more questions and I will be happy to help you out.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

@@ -1,5 +1,0 @@
-name: Jason L
-date: '2017-09-04 00:22:03'
-url: ''
-message: "Any chance anyone has been working on the roledefn builder?    I have been building a lot of the objects in peoplecode and I am stumped on how to add the permission list to the role...  I think I am really  close as when I try to use the following code only the \"    &amp;rc = &amp;oRoleDefn.Insert_Rct(1);\" line fails... \r\n\r\n\r\n &amp;oRoleDefn = &amp;oRoleDefn_Manager.CreateDefn();\r\n      &amp;oRoleDefn.Rolename = &amp;Rolename;\r\n      &amp;oRoleDefn.Descr = &amp;descr;\r\n      &amp;oRoleDefn.Descrlong = &amp;DESCRLONG;\r\n      \r\n       Local %metadata:RoleDefn:Roleclass &amp;rc;\r\n       &amp;rc = &amp;oRoleDefn.Insert_Rct(1);\r\n      \r\n        &amp;rc.Classid = &amp;CLASSID; \r\n      If Not (&amp;oRoleDefn.SaveNewDefn()) Then\r\n         \r\n      End-If;"
-email: d41d8cd98f00b204e9800998ecf8427e

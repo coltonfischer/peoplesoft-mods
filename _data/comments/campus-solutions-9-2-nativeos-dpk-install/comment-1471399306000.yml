@@ -1,5 +1,0 @@
-name: Krishna Kishore
-date: '2016-08-17 02:01:46'
-url: ''
-message: "Hi, very useful article. Much appreciated.\r\n\r\nHere i am facing an issue when deploying dpk. I have created my psft_customization.yaml file and passed the ps_cfg_home parameter explicitly . Though domains were created without any issues, app server was failing to boot up. When checking , found REN server serivice was failed to come up.  When i disable the event notification and try booting the domain , it is coming up. Am i missing any step here? How do i get rid of this error in future.\r\n\r\nAlso let me know if any additional information needed from my side. Thanks in advance !!"
-email: 5d23cf5dcec03783439f88df15329b32

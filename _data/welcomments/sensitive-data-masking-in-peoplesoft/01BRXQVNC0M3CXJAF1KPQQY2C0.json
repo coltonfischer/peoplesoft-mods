@@ -1,0 +1,12 @@
+{
+  "id": "01BRXQVNC0M3CXJAF1KPQQY2C0",
+  "date": "2017-09-01T06:30:56.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Karthik,\n\nThis post was to demonstrate the capabilities of servlet filter-based data masking in PeopleSoft.  I do not have available a single bundled tool that provides all of this functionality, but I have made several posts (http://www.peoplesoftmods.com/category/servlet-filters/) on this site that demonstrates most all of the needed pieces to get this to work. Please let me know if you have any other questions.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

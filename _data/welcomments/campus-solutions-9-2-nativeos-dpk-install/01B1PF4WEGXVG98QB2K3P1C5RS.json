@@ -1,0 +1,12 @@
+{
+  "id": "01B1PF4WEGXVG98QB2K3P1C5RS",
+  "date": "2016-11-16T13:42:58.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi David,\n\nI believe that I ran into this problem as well.  You will need to modify the security properties of the pt folder (C:\\psft\\pt).  \n\nRight click the pt folder and select properties. Go to the security tab, click the user name that you are logged in as, and click the edit button. Here you can check the \"allow\" checkbox to give your account full control.  This should solve your problem. Please let me know if this doesn't work.\n\nThanks,\nColton",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

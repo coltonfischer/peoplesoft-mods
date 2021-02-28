@@ -1,5 +1,0 @@
-name: Colton Fischer
-date: '2017-05-02 07:14:46'
-url: 'http://www.peoplesoftmods.com'
-message: "Hello Brennan.  All of your assumptions are absolutely correct.  The servlet filter replaces the original element that contains the sensitive data with an image element that calls an IScript on the “onclick” event.  When the filter injects this image element, it also injects an encrypted token that contains the level 0 keys, component name, record field name, row number, as well as the original data itself.  This is what gets sent to the IScript so that it is capable of returning the decrypted/unmasked data if needed.  This is also what allows the IScript to log the key information (Who, What, When, and Where) of the transaction.\r\n\r\nAfter looking back on my response to Eric’s comment above, I realize what I said may be mis-leading and not explained thoroughly.  The sensitive data does not exist in the DOM, but an encrypted version of the data does exist in the DOM.\r\n\r\nPlease let me know if I explained this well enough as well as if you have any other questions."
-email: 4d496aa46c2247876cdd9588b8128ea0

@@ -1,0 +1,12 @@
+{
+  "id": "01AZFTM150S89W57DFV1ZBNFNE",
+  "date": "2016-10-20T04:17:24.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "I unfortunately do not have any experience with the notifications framework in PeopleSoft.  It is on my list to research because it would be nice to have it configured to send SMS text messages.  I will be sure to post something here if I determine how to setup the notifications framework for SMS messaging.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

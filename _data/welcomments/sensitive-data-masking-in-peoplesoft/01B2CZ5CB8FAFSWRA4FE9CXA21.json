@@ -1,0 +1,12 @@
+{
+  "id": "01B2CZ5CB8FAFSWRA4FE9CXA21",
+  "date": "2016-11-25T07:26:09.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Daniel,\r\n\r\nThanks for reaching out.  The functionality that you are seeing in this video is achieved with the use of servlet filters.  This does not make use of the 8.55 event mapping. All of the code that does the data masking resides on the web server.  Servlet filters are nice because they provide the ability to achieve custom functionality without the need to customize the application.   Please let me know if you have any more questions.\r\n\r\nThanks,\r\nColton",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

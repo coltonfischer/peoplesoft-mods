@@ -1,5 +1,0 @@
-name: Garth
-date: '2016-07-29 09:42:01'
-url: ''
-message: "Signon peoplecode does not fire again.  When you're on the 2FA page, put the url for your default home in the browser's address bar.  signon code does not fire.\r\n\r\nwhat version of PT are you on.  We're on pt8.55.06, and setauthenticaionresult() can no longer be used to redirect to specific page.  Always redirects to home page no matter what url you use.  Oracle told us that was by design."
-email: d41d8cd98f00b204e9800998ecf8427e

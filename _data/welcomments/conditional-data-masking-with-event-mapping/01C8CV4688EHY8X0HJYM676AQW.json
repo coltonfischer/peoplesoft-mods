@@ -1,0 +1,12 @@
+{
+  "id": "01C8CV4688EHY8X0HJYM676AQW",
+  "date": "2018-03-12T12:12:05.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "This technique makes use of functionalities that are delivered in PeopleTools 8.56 and does not require any application-specific functionality to work. This technique will work on any HCM, FSCM, ELM, etc. PeopleSoft application as long as they are running PeopleTools 8.56.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "01B3Y5WJX09N6QX6F0XJWYRDMC",
+  "date": "2016-12-14T10:06:28.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Erik,\r\n\r\nThe sensitive data is not exposed in the DOM.  The sensitive HTML element is replaced entirely by an injected img element.  This img element has an onclick event that calls the app server to retrieve the data.  The app server logs the transaction to the database and conditionally responds to the client's request...  Sorry if this is confusing.  Please let me know if you would like more clarification or if you have any other questions.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

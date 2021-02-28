@@ -1,0 +1,12 @@
+{
+  "id": "01C5WH8BC8D5XZC6YW169YCRGV",
+  "date": "2018-02-09T07:40:21.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hello.  I believe I exchanged comments with one of your colleagues regarding this issue.  As you have discovered, this technique of enforcing 2FA at the PeopleSoft login not longer behaves in a secure manner as it did in older Tools versions.  With this being said, I do not recommend using this solution as a protection measure for application access.\r\n\r\nAs for assigning/revoking Roles in the 2FA process this should work in theory.  I have never tried this though.  You would just need to be sure that when you revoke the Role that gives the user broad access, then you need to revoke it in the Sign On PeopleCode before the call to SetAuthenticationResult and not on the intermediate 2FA page.  I think doing something like this would allow this technique to behave like it did on older Tools.  What you would be aiming for is for the ResultDoc redirection technique to behave like the Password Expired functionality does in the Sign On process.  See <a href=\"https://docs.oracle.com/cd/E92519_01/pt856pbr2/eng/pt/tpcl/langref_PeopleCodeBuilt-inFunctionsAndLanguageConstructs_S.html#u6bffa7ed-ded8-4200-8597-d335e185083c\" target=\"_blank\" rel=\"nofollow\">the PasswordExpired parameter description for the SetAuthenticationResult function in PeopleBooks</a>.  In the description it states: If this value is specified as True, the user is allowed to log in, but is <strong>able to access only a limited portion of the system</strong>: just enough to change their expired password.  \r\n\r\nI'd be interested in hearing how this works out for you if you decide to go this route.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

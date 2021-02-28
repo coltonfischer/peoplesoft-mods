@@ -1,8 +1,0 @@
-_id: d50e6650-a114-11ea-a64d-b31162e09466
-_parent: 'https://www.peoplesoftmods.com/utilities/compile-and-run-peoplecode-online/'
-message: "Hello Colton,\r\n\r\nFirst, you have great posts about %metadata, congrats.\r\n\r\nI'm trying to simulate the \"Validate Syntax\" function from PeopleCode editor using %metadata, but without success until now.\r\n\r\nThe result more closer that i got was with the below command:\r\n&bResult = &defn.UpdateProgram(&appClassText, &strErr, &int1, &int2);\r\n\r\nDo you have some information about this?\r\n\r\nThanks!"
-name: Filipe
-email: cbe29c311fb4b7559cc64291c00beba9
-url: ''
-hidden: ''
-date: '2020-05-28T18:55:43.601Z'

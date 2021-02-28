@@ -1,0 +1,12 @@
+{
+  "id": "01BEHTW5NRQ1WJK3JH6VM3B3ZQ",
+  "date": "2017-04-25T08:55:47.000",
+  "author": {
+    "name": "Sasank Vemana",
+    "website": "https://pe0ples0ft.blogspot.com/"
+  },
+  "message": "Hey Colton - Great post again! Very handy. This has been a pain to workaround at times.\r\n\r\nI believe this issue occurs with migration as well. That is, if you migrate an object that you added from the PIA, it will not be available in the target PIA for some reason. Here is how I was working around that problem.\r\nhttps://pe0ples0ft.blogspot.com/2015/04/peopletools-854-branding-objects.html",
+  "migrated_fields": {
+    "email": "97ec0d43ebb6b97ce7cb1525b72decd3"
+  }
+}

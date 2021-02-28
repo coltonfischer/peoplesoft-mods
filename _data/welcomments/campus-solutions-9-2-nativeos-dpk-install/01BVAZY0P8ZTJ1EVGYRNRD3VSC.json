@@ -1,0 +1,12 @@
+{
+  "id": "01BVAZY0P8ZTJ1EVGYRNRD3VSC",
+  "date": "2017-10-01T06:33:33.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Raja.  To be honest, I am not too sure if the antivirus software is preventing the services from running.  I would suggest that you try running the installation scripts again with the antivirus software disabled.  Ensure that you get no errors during the installation process and then see if the services will run after the install.  At that point, you could re enable the antivirus software and see if the services work or not.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

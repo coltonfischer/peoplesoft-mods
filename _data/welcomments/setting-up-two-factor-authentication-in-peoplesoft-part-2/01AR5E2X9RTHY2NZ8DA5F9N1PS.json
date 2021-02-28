@@ -1,0 +1,12 @@
+{
+  "id": "01AR5E2X9RTHY2NZ8DA5F9N1PS",
+  "date": "2016-07-21T03:36:03.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "When I did my testing with this project I did not find that the user could bypass the 2FA page in that manner.  When you attempt to access a different URL from the 2FA page, the sign on PeopleCode fires again.  The sign on PeopleCode sees that you do not have the 2FA token so it redirects you back to the 2FA page.  Please let me know if your findings are different.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

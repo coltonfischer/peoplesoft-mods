@@ -1,0 +1,12 @@
+{
+  "id": "01BXRGC1E8PXSHPF4M50Q2EY24",
+  "date": "2017-10-31T08:02:21.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "This approach seems like it should work.  You would have to configure the filter for all possible resources (\"/psc/*\" url-pattern) and the filter would check each request for a valid token.  If a valid token is present in the request, then simply call chain.doFilter(...). If a token is not present in the request, then you would call response.sendRedirect(...) to redirect to the custom user profile page.  The biggest gotcha is to ensure that the issued token is not easily forge-able.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

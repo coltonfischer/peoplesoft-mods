@@ -1,0 +1,11 @@
+{
+  "id": "01BR2G074R92XC0AA385671MDM",
+  "date": "2017-08-21T16:34:07.000",
+  "author": {
+    "name": "Annie"
+  },
+  "message": "This worked great! \r\n\r\nAny tips on how to get it working for remote content via unified navigation? Currently the breadcrumb functionality stops as soon as a remote folder is clicked. \r\n\r\nI couldn't see a way to access a remote portal registry via PeopleCode.",
+  "migrated_fields": {
+    "email": "df4a204a743b4bbde618cbd4b1955982"
+  }
+}

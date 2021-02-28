@@ -1,9 +1,0 @@
-name: Colton Fischer
-date: '2018-03-06 10:25:09'
-url: 'http://www.peoplesoftmods.com'
-message: >-
-  Thank you for sharing your experiences, Curtis.  I have done some spot
-  checking on the VERSION values of some of the objects that I have updated
-  using %metadata, but never thought to ensure the integrity of fields like
-  LASTUPDDTTM and LASTUPDOPRID.  Good to know that this is working for you.
-email: 4d496aa46c2247876cdd9588b8128ea0

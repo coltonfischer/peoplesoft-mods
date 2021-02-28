@@ -1,0 +1,11 @@
+{
+  "id": "01CCN6RTAGCA0V9408D8448X0H",
+  "date": "2018-05-04T12:12:18.000",
+  "author": {
+    "name": "Mathivanan"
+  },
+  "message": "Getting below error while installing HCM PUM image 26 on windows 10. \r\n\r\nPS H:\\PSPUM\\dpk\\puppet\\production\\manifests&gt; puppet apply site.pp\r\nError: Evaluation Error: Error while evaluating a Function Call, Could not find class ::pt_role::pt_hcm_pum for desktop-\r\nqlvgdbc.home at H:/PSPUM/dpk/puppet/production/manifests/site.pp:22:3 on node desktop-qlvgdbc.home\r\n\r\nPlease help on this.",
+  "migrated_fields": {
+    "email": "4ba3af650e21cfa1657a0d51190a9c61"
+  }
+}

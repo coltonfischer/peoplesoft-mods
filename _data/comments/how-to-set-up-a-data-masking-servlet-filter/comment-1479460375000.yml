@@ -1,5 +1,0 @@
-name: Alexei Tetenov
-date: '2016-11-18 09:12:55'
-url: ''
-message: "Hi Colton,\r\nI was listening to your discussion on data masking filters and putting rule updates from a configuration on a page/record to the web server.\r\nMy understanding is that the Web Profile component does this.  Maybe you can examine how the Web Profile component pushes changes to the web server configuration files and use a similar methodology.\r\nKeep up the good work and thank you for sharing.\r\n-Alexei"
-email: 067a7de946c7ca06bd09fbc23ae4825f

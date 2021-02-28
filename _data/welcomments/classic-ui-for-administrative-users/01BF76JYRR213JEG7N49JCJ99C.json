@@ -1,0 +1,12 @@
+{
+  "id": "01BF76JYRR213JEG7N49JCJ99C",
+  "date": "2017-05-03T16:04:31.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Thanks Sasank!  I really like how Fluid has enabled major application elements to be component-based.  This allows for us to use the event mapping hooks to achieve nice bolt on functionality.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

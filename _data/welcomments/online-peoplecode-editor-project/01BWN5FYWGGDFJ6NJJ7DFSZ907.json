@@ -1,0 +1,11 @@
+{
+  "id": "01BWN5FYWGGDFJ6NJJ7DFSZ907",
+  "date": "2017-10-17T15:38:50.000",
+  "author": {
+    "name": "Rama"
+  },
+  "message": "Great project. When I tried to save the PeopleCode, i am getting an error - Unsupported use of %Metadata:PeopleCodeProgram:UpdateProgram (0,0)",
+  "migrated_fields": {
+    "email": "9cd0aea94040f04fae30933d2f84ac24"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "01E9EA7RFHS38M27HM7DBCWSW5",
+  "date": "2020-05-28T18:55:43.601Z",
+  "author": {
+    "name": "Filipe"
+  },
+  "message": "Hello Colton,\r\n\r\nFirst, you have great posts about %metadata, congrats.\r\n\r\nI'm trying to simulate the \"Validate Syntax\" function from PeopleCode editor using %metadata, but without success until now.\r\n\r\nThe result more closer that i got was with the below command:\r\n&bResult = &defn.UpdateProgram(&appClassText, &strErr, &int1, &int2);\r\n\r\nDo you have some information about this?\r\n\r\nThanks!",
+  "migrated_fields": {
+    "email": "cbe29c311fb4b7559cc64291c00beba9"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "01B1RZJ18RXJHDZR0J51RRDSW4",
+  "date": "2016-11-17T13:08:15.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "I haven't personally experienced a \"Permission denied\" error, but my guess would be maybe the account you are using has limited permissions.  I always run the dpk process on an Windows administrator account.  If you are already using an admin account, then I am unsure of why you would get this error.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

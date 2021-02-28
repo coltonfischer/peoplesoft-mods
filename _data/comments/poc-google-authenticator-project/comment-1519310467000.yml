@@ -1,5 +1,0 @@
-name: Andrew Crawford
-date: '2018-02-22 14:41:07'
-url: ''
-message: "Getting a error when clicking the \"Setup Google Authenticator\" button.\r\n\r\n\"Java Exception: java.lang.NoClassDefFoundError: org/apache/commons/codec/binary/Base32: during call of psGAuth.GetKey. (2,763) PSM_GAUTH_WRK.PSM_SETUP_GAUTH.FieldEdit  PCPC:371  Statement:6 \r\n\r\nThe noted Java error was thrown during a call of the given method.\""
-email: abd9bd1ff807d0434beaa7401cfd4a20

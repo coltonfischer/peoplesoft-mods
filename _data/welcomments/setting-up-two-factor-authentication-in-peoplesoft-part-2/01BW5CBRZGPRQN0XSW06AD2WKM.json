@@ -1,0 +1,12 @@
+{
+  "id": "01BW5CBRZGPRQN0XSW06AD2WKM",
+  "date": "2017-10-11T12:31:02.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi John.  The issue with the PeopleCode not firing behind the buttons on the custom page might be occurring from the page not being served properly from the web server.  If you open up the developer tools console in your web browser, are you seeing \"403 Forbidden\" messages?  I recall this happening to me before and the 403's caused the PeopleCode behind the page's button's to not fire.  I believe a web server bounce and cache clear resolved the issue for me.\r\n\r\nAs for being able to bypass the custom page after sign in by pasting in a different URL in the address bar, this seems to be an issue that surfaced in the 8.55 PeopleTools.  The issue seems to be applicable for Fluid-enabled environments.  You can read the comment exchange from Garth and I in the above comments for more details on this.  Is the URL that you are pasting into the address bar and URL to a Fluid component or content reference?  Are you able to bypass the custom page by pasting in a URL to a non-Fluid component or content reference?",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

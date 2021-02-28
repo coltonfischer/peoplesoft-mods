@@ -1,5 +1,0 @@
-name: Colton Fischer
-date: '2017-04-04 06:25:33'
-url: 'http://www.peoplesoftmods.com'
-message: "Hi Karthik.  In my experience the DPK automatically creates the Oracle related services.  Did you get any errors when you ran the DPK process?  If so, then I would check the logs that it produced to see what went wrong and try to fix it.  \r\n\r\nAlso note that I did the DPK process on a fresh install of Windows 7.  When I ran the DPK process on a non-clean version on Windows, I believe that some of the software that I had previously installed made conflicts arise when the DPK process ran.  So I would advise to try to run this process on a fresh Windows install and see where that gets you.  \r\n\r\nOther than that, I am not too sure what your issue could be.  Please let me know if you have any other questions or comments and I will try to help you out."
-email: 4d496aa46c2247876cdd9588b8128ea0

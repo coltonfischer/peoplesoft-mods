@@ -1,0 +1,11 @@
+{
+  "id": "01AR4R4PK8K0K3J6V6B8RN0190",
+  "date": "2016-07-20T21:12:33.000",
+  "author": {
+    "name": "Garth"
+  },
+  "message": "Once you've issued setauthenticationresult true, the user is authenticated, even if you redirect them to a custom page.  At that point they can manually modify url in browser to go to another page, bypassing your 2fa.  Or am I missing something?",
+  "migrated_fields": {
+    "email": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

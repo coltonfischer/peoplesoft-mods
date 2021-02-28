@@ -1,0 +1,11 @@
+{
+  "id": "01BEQ1T23G7T3EJKZ40DBSKWB4",
+  "date": "2017-04-27T09:33:10.000",
+  "author": {
+    "name": "Jonathan Rehm"
+  },
+  "message": "Hey Colton, regarding syntax highlighting, perhaps you could use https://github.com/Jatz/PeopleCodeTools as an assist to create a syntax definitions for one of the existing JavaScript highlighters? I know very little about it, but it would provide a starting place without entirely re-inventing things.",
+  "migrated_fields": {
+    "email": "2ee47b2412980b65e6e1b53dc354041c"
+  }
+}

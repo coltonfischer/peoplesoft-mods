@@ -1,0 +1,12 @@
+{
+  "id": "01C96PVRSGPQQRKGZB254CPW9Q",
+  "date": "2018-03-22T13:17:50.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "I have the Enabled checkbox unchecked and the Exec. Auth Failed Checkbox checked. However, I would not advise for you to mimic what I have in my system if it is different than the way yours is currently configured.  The technique demonstrated in this post does not rely on these values being set to a certain value.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

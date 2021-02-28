@@ -1,0 +1,11 @@
+{
+  "id": "01E7EQS8H2F8AP63BPQBT8W6YK",
+  "date": "2020-05-04T02:21:04.930Z",
+  "author": {
+    "name": "Pratiksha"
+  },
+  "message": "Thank you for taking time to respond to my question.\r\nApp Designer was my only way to obtain the JavaScript. Since the script was way too long to manually remove the line breaks, I kept looking for another way of doing that. After experimenting for hours, i am glad to share that i found a way.  These script content was saved in PSCONTENT table as HUGEBLOB. My script was saved in multiple rows of the table. Using TOAD, i was able to export out the HUGEBLOB field CONTDATA in to a text file. I updated the text file with my changes and again using TOAD, i was able to upload this to database. Doing this didn't insert line breaks.",
+  "migrated_fields": {
+    "email": "3ea6a5088da2c432f0b745465369b753"
+  }
+}

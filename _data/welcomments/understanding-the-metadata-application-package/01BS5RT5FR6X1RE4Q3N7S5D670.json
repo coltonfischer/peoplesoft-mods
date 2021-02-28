@@ -1,0 +1,12 @@
+{
+  "id": "01BS5RT5FR6X1RE4Q3N7S5D670",
+  "date": "2017-09-04T09:21:31.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Jason.  I think Role definition management is a great use case for the %metadata package.  I just updated the post with an example of how to assign a Permission List to a Role definition using the %metadata package.  Please see the \"Another Complete %metadata Example\" section above.  Let me know if you have any other questions.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

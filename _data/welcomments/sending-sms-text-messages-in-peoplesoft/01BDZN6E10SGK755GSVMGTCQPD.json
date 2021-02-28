@@ -1,0 +1,12 @@
+{
+  "id": "01BDZN6E10SGK755GSVMGTCQPD",
+  "date": "2017-04-18T07:30:12.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Sree,\n\nIn response to your first comment about the IP address:\n\nIt has been a while since I have visited this solution, but if I recall correctly, the App Designer project that I provided has the Integration Broker \"plumbing\" to be able to communicate with Nexmo.  The project should contain the IB service that has the endpoint URL to Nexmo.  You should not need Nexmo's IP address to get this to work.  \n\nIn response to this comment about the error you are getting:\n\nThe \"External System contact Error\" is a generic error that can be caused by a number of things.  If you look at the IB logs, you be able to determine the exact error code that is being thrown and this will allow us to go down the correct path to troubleshoot the issue.  Let me know what the error code is and I will try to provide guidance to solve the issue.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

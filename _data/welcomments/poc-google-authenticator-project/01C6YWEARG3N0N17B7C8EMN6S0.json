@@ -1,0 +1,11 @@
+{
+  "id": "01C6YWEARG3N0N17B7C8EMN6S0",
+  "date": "2018-02-22T15:50:02.000",
+  "author": {
+    "name": "Andrew Crawford"
+  },
+  "message": "Adding commons-codec-1.11 to the server seems to resolve the issue.",
+  "migrated_fields": {
+    "email": "abd9bd1ff807d0434beaa7401cfd4a20"
+  }
+}

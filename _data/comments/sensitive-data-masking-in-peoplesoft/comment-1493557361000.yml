@@ -1,5 +1,0 @@
-name: Brennan Folmer
-date: '2017-04-30 13:02:41'
-url: ''
-message: "Hi Colton -\r\n\r\nGreat job on the approach and the write-up. Very elegant solution. \r\n\r\nI did have a question about the call-back approach when a user clicks on the lock icon. I'm assuming your servlet is replacing the real data with some javascript to handle the click and make a request to both verify/enforce 2FA as well as retrieve the masked data. But, I'm unsure how you are retrieving the proper data that was originally masked. Are you calling back to an iScript that first handles the 2FA work and then somehow pulling the masked data for the specific transaction? If so, how is the correct data pulled for that particular transaction?"
-email: d5ab88cb1662d74e7960cffb7ecea566
