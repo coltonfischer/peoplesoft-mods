@@ -1,0 +1,12 @@
+{
+  "id": "01C3AFX12GGMZNMB4HVVEZCEGD",
+  "date": "2018-01-08T10:58:58.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Steve. The project in this post is standalone.  If you follow the steps in this post to install the downloadable project and configure a component for 2FA, then it should just work.  Please let me know if the steps in this post are not clear or if you have post-installation issues.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

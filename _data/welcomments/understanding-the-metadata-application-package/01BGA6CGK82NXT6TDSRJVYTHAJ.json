@@ -1,0 +1,12 @@
+{
+  "id": "01BGA6CGK82NXT6TDSRJVYTHAJ",
+  "date": "2017-05-17T06:14:25.000",
+  "author": {
+    "name": "Neil Yetman",
+    "website": "http://getlevel0.blogspot.com/"
+  },
+  "message": "Hi Colton. Re syntax highlighting, I was going to suggest you look at the highlight.js library too. I've had some experience coming up with PeopleCode syntax files in the past for extenssions for WikiMedia wikis I've worked with. The first one was for the Geshii highlighter. The second (just last autumn) was for the Pygments highlighter. I could possibly lend a hand if you'd like. Just let me know.",
+  "migrated_fields": {
+    "email": "1e36a37e9f1a763980e4e21ea361abf6"
+  }
+}

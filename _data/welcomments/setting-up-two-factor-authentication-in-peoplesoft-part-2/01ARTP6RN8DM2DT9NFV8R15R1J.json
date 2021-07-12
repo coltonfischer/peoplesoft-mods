@@ -1,0 +1,11 @@
+{
+  "id": "01ARTP6RN8DM2DT9NFV8R15R1J",
+  "date": "2016-07-29T09:42:01.000",
+  "author": {
+    "name": "Garth"
+  },
+  "message": "Signon peoplecode does not fire again.  When you're on the 2FA page, put the url for your default home in the browser's address bar.  signon code does not fire.\r\n\r\nwhat version of PT are you on.  We're on pt8.55.06, and setauthenticaionresult() can no longer be used to redirect to specific page.  Always redirects to home page no matter what url you use.  Oracle told us that was by design.",
+  "migrated_fields": {
+    "email": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

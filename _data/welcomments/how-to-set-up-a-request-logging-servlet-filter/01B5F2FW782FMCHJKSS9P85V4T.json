@@ -1,0 +1,12 @@
+{
+  "id": "01B5F2FW782FMCHJKSS9P85V4T",
+  "date": "2017-01-02T09:49:53.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Kiran,\r\n\r\nI have not experimented using this solution with a proxy server present. There should be a way to configure your proxy server to pass along the X-Forwarded-For HTTP header that contains the actual client IP address. However, I am unsure if this alone will allow for the client IP to be captured.  This is because the code in this post obtains the IP address from the USERID session variable. The USERID session variable is a variable that does not get populated in this code. With that being said, I am unsure of how exactly this variable gets populated and we cannot control the population of this variable.  If your proxy server is already configured to pass the X-Forwarded-For HTTP header and you are still not seeing the client IP, then you might need to explore an alternate method of obtaining the IP address.\r\n\r\nThanks,\r\nColton",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

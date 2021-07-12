@@ -1,5 +1,0 @@
-name: Mark H
-date: '2017-08-31 09:42:50'
-url: ''
-message: "This is how I access AE code:\r\n\r\n      &amp;oKey.AddItem(Key:Class_AEApplicationId, PSPCMPROG.OBJECTVALUE1);\r\n      &amp;oKey.AddItem(Key:Class_AESection, PSPCMPROG.OBJECTVALUE2);\r\n      &amp;oKey.AddItem(Key:Class_Market, PSPCMPROG.OBJECTVALUE3);\r\n      &amp;oKey.AddItem(Key:Class_DBType, PSPCMPROG.OBJECTVALUE4);\r\n      &amp;oKey.AddItem(Key:Class_EffDt, PSPCMPROG.OBJECTVALUE5);\r\n      &amp;oKey.AddItem(Key:Class_AEStep, PSPCMPROG.OBJECTVALUE6);\r\n      &amp;oKey.AddItem(Key:Class_Method, PSPCMPROG.OBJECTVALUE7);"
-email: c5646e0941d28e0f006dfc95b87c3b93

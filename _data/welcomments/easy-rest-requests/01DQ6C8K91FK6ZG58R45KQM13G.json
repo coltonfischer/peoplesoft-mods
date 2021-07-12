@@ -1,0 +1,12 @@
+{
+  "id": "01DQ6C8K91FK6ZG58R45KQM13G",
+  "date": "2019-10-15T00:14:39.905Z",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "https://www.peoplesoftmods.com/"
+  },
+  "message": "I don't have an API that returns `4XX`/`5XX` statuses with response message content to test this on.  If you are finding that the response contains empty content for `4XX`/`5XX` statuses, then it is possible that IB is \"eating\" content for these scenarios. This could be a bug or by design.  \r\n\r\nYou can try asking this question in the [PeopleTools MOS Community](https://community.oracle.com/community/support/peoplesoft/peopletools_-_psft) to see if any of the experts have opinions or solutions for this issue.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

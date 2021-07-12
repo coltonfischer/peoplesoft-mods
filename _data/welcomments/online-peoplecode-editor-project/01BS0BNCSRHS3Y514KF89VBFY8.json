@@ -1,0 +1,11 @@
+{
+  "id": "01BS0BNCSRHS3Y514KF89VBFY8",
+  "date": "2017-09-02T06:55:31.000",
+  "author": {
+    "name": "Jonathan R"
+  },
+  "message": "Really interesting project, Colton. I wonder if using a contenteditable (https://developer.mozilla.org/en-US/docs/Web/HTML/Global_attributes/contenteditable) element would make it easier to format the code nicely, e.g. insert whitespace and newlines in the correct place. No promises, but I may play with that sometime and see if I can get the Sublime Text PeopleTools syntax highlighter (https://github.com/Jatz/PeopleCodeTools) to work in the browser.",
+  "migrated_fields": {
+    "email": "2ee47b2412980b65e6e1b53dc354041c"
+  }
+}

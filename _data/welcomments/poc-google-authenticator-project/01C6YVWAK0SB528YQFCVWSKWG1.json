@@ -1,0 +1,11 @@
+{
+  "id": "01C6YVWAK0SB528YQFCVWSKWG1",
+  "date": "2018-02-22T15:40:12.000",
+  "author": {
+    "name": "Andrew Crawford"
+  },
+  "message": "8.56 comes with commons-codec-1.2. This does not seem to include Base32, only has Base64.",
+  "migrated_fields": {
+    "email": "abd9bd1ff807d0434beaa7401cfd4a20"
+  }
+}

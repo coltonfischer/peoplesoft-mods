@@ -1,0 +1,11 @@
+{
+  "id": "01C91CRZV8JR2JMGHSC62QS2BQ",
+  "date": "2018-03-20T11:45:21.000",
+  "author": {
+    "name": "RL"
+  },
+  "message": "Hi Colton,\r\n\r\ni'm planning to implement same way for SSO signon(Shib) using weblogic for peoplesoft  without reverse proxy. will it possible to do.",
+  "migrated_fields": {
+    "email": "06604fc1a51fd986d10745d8a4ed9eb4"
+  }
+}

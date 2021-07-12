@@ -1,0 +1,8 @@
+{
+  "id": "01BQ3D8NRRTAZQNDYPTZFH8P6F",
+  "date": "2017-08-09T14:49:51.000",
+  "message": "Thank you.   Very Helpful!\r\n\r\nAfter adding the project and implementing the changes, we started seeing RELCONTENT-04 and RELCONTENT-15 exceptions on the SYSAUDIT.  Any suggestion on how to make those disappear on the report?  Currently, we are just ignoring the exceptions.",
+  "migrated_fields": {
+    "email": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "01BAPGNDR8FNZJF7KZ7GWBG8Y4",
+  "date": "2017-03-08T10:30:45.000",
+  "author": {
+    "name": "sharath",
+    "website": "http://www.google.com"
+  },
+  "message": "Hi, I am trying to replicate this functionality in HCM PUM20 and I am not being redirected. I followed through the steps and described. Any tips for troubleshooting.? I don't see the custom cookie being generated.\r\n\r\n\r\n",
+  "migrated_fields": {
+    "email": "a44bb44bb75fcf3c948fc833a3db28ee"
+  }
+}

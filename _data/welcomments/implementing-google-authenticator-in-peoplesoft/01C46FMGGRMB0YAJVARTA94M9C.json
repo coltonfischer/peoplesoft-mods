@@ -1,0 +1,12 @@
+{
+  "id": "01C46FMGGRMB0YAJVARTA94M9C",
+  "date": "2018-01-19T07:53:03.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Raj,  I found the PeopleSoft Pluggable Encryption Technology to be too cumbersome to get working with this solution.  Instead, I switched to using a JavaScript-based TOTP algorithm that can be ran using the delivered Java on the Application Server.  Using Java to run JavaScript in PeopleCode is a great technique to get get around the technical limitations of the PeopleCode language.  The best part of this technique is that there are no additional App Server Java dependencies required to do this.\n\nI plan to do another post on this topic in the near future.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

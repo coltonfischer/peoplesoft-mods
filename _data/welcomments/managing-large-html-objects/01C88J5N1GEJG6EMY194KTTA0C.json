@@ -1,0 +1,11 @@
+{
+  "id": "01C88J5N1GEJG6EMY194KTTA0C",
+  "date": "2018-03-10T20:18:38.000",
+  "author": {
+    "name": "shri"
+  },
+  "message": "Colton, thanks for the tip. Also wanted to get you thoughts on injecting JavaScript objects into a component. I have bits of JavaScript functions that I want to call on component. I have tried to call JavaScript on PostBuild/Page Activate and it is hit/miss most of the time. I tried Event mapping framework to inject JavaScript and it works perfectly.  Also, I was super excited to see App designer enabling us to embed stylesheets/JavaScript objects through component properties. But I don't think it is fully functional yet.\r\n\r\nAnother customization I was working on is to insert a new DOM element into body, display it as a popup hyperlink. and the popup page will display HTML  message from message catalogue, which I am passing as parameter to popup function. I tried passing the passing the parameter as below where &amp;myHTML holds the formatted static HTML text, but I couldn't pass the variables successfully. If I passed a simple string, it went through. Any thoughts on this?\r\n\r\nAddOnLoadScript(\"MyPopup('\" | &amp;myHTML | \"');\");\r\n\r\nOn a sidenote, please give us tidbits on how to invoke JavaScript functions used by PeopleSoft. For example, I use below to invoke View All on Page scroll to display all rows. Do you have any tips/suggestions calling such delivered functions rather than using a HTML object hard coded onto a page?(PS: I just started learning JavaScript)\r\n\r\n  \r\nsubmitAction_win0(document.win0,'$ICField6$hviewall$0');\r\n",
+  "migrated_fields": {
+    "email": "f46df6b51a66390ac9cb07c8ca1455fa"
+  }
+}

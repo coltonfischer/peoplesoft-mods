@@ -1,0 +1,11 @@
+{
+  "id": "01CB723FW8GFTBSBEK68FK9ZGH",
+  "date": "2018-04-16T14:05:41.000",
+  "author": {
+    "name": "Yong Chen"
+  },
+  "message": "We are on PT 8.56.02 and I get the same unauthorized token error message. Were you able to get the redirect to work?",
+  "migrated_fields": {
+    "email": "51b918accd5cb6c5b0435d1ee343cfc0"
+  }
+}

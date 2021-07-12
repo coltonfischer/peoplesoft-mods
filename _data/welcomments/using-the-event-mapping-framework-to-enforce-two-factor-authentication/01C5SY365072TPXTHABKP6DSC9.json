@@ -1,0 +1,12 @@
+{
+  "id": "01C5SY365072TPXTHABKP6DSC9",
+  "date": "2018-02-08T07:27:00.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "The SMS option on the provided 2FA page in the project is merely a placeholder.  Sending SMS messages from PeopleSoft requires some server administration tasks, so I decided to create an entirely separate post document the required setup and code needed to send SMS messages from PeopleSoft.  Here is the post: <a href=\"http://www.peoplesoftmods.com/tips-and-tricks/sending-sms-text-messages-in-peoplesoft/\">Sending SMS Text Messages in PeopleSoft</a>.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

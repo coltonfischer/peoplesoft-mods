@@ -1,0 +1,11 @@
+{
+  "id": "01C0JS15Q86V3HDC0NTTHZY4SV",
+  "date": "2017-12-05T09:25:21.000",
+  "author": {
+    "name": "Shankar"
+  },
+  "message": "Great POC Colton.  \r\n\r\nWe already use Google Authenticator for centralized applications.  I was wondering if you have any suggestions on how to get info for User ID and the secret key value that is stored externally  and use this information for 2F validation.\r\n\r\nThanks",
+  "migrated_fields": {
+    "email": "55ec1f545ffea1d374a50bae89de6392"
+  }
+}

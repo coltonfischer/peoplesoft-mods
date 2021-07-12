@@ -1,0 +1,11 @@
+{
+  "id": "01C6ECHDGREA2P2RQ3H0E7MJ08",
+  "date": "2018-02-16T06:04:15.000",
+  "author": {
+    "name": "Naveena"
+  },
+  "message": "Hi Colton, event mapping works like a champ in \"Change Password\" page and other pages which has no search record involved in the component. However the components with search record doesn't invoke two factor Authentication app package. Basically the event mapping doesn't work for such components. Any idea about this?",
+  "migrated_fields": {
+    "email": "3285aa8ba7db0aaa7b3b5f6239387a51"
+  }
+}

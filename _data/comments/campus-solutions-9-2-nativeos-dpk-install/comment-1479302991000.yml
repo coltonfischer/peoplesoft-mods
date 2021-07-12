@@ -1,5 +1,0 @@
-name: David
-date: '2016-11-16 13:29:51'
-url: 'http://na'
-message: "Native OS DPK Install.  I get all the way up to runnning psadmin in command prompt (admin mode) and I get an access denied.  I went to the admin app, right clicked and tried to run as administrastor and get an error saying Window cannot access the specified path.\r\n\r\nThis is on a Windows 10 pro machine.  Any ideas?"
-email: ae9b9db778eae4e0f5f3b2918ed80cad

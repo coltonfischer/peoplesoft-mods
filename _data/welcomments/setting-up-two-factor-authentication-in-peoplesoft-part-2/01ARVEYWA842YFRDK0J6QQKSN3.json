@@ -1,0 +1,12 @@
+{
+  "id": "01ARVEYWA842YFRDK0J6QQKSN3",
+  "date": "2016-07-29T16:54:37.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "I did my testing with this project on an 8.54.19 environment.  When I pasted the homepage url (or any other PS url) into the browser at the 2FA page, the sign on PeopleCode would fire again and redirect me back to the 2FA page.  I confirmed this by writing a row to the database when the 2FA sign on PeopleCode function would fire. An additional row would show up when I tried to do this.  I specifically tested for this scenario when I developed this solution because it would not be very secure if the user could bypass the 2FA in this manner. It is possible that the newer tools release could've caused this to behave differently.\r\n\r\nUPDATE:\r\nI decided to download the new CS PUM image with Tools 8.55.06 and see if I experienced the same issues as you.  It turns out that the newer Tools version does indeed cause some issues for this project to work securely.  \r\n\r\nHere is what I found:\r\n\r\nI can bypass the 2FA page by inserting a URL to a fluid page in the address bar.  If I paste in a non-fluid page URL, then I am redirected back to the 2FA page.  It seems that if I bypass the 2FA page by pasting a fluid page URL, then as soon as I attempt to access a non-fluid page from there, I am redirected to the 2FA page. So it seems that something with fluid is making this act strange. I will update the post with this information.  Thank you Garth for bringing this to my attention.  \r\n\r\nAs far as using the setauthenticationresult function in the sign on PeopleCode to redirect to a specific page in the 8.55.06 environment, I had no issues accomplishing this.  Are you sure that you had the \"Sign On Result Doc Page\" set to \"signonresultdocredirect.html\" on the web profile's look and feel tab?\r\n\r\nSince you are already on 8.55, then I would suggest enforcing 2FA on your users at the component level with the use of the event mapping framework.  One of Oracle's intentions of the event mapping framework was for customers to use it to deploy 2FA.  Enforcing 2FA at the component level will provide a much better user experience versus enforcing the 2FA at the login.  However, this method will not be helpful if your requirement is to enforce 2FA at the login.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

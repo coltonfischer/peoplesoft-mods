@@ -1,0 +1,12 @@
+{
+  "id": "01B1PRTPGG12TDXR05TQZY8DMT",
+  "date": "2016-11-16T16:32:10.000",
+  "author": {
+    "name": "David",
+    "website": "http://NA"
+  },
+  "message": "Okay, got past the psadmin issue.  Now I don't see the Oracle services.  I'm rebooting to see if that updates the services",
+  "migrated_fields": {
+    "email": "d41d8cd98f00b204e9800998ecf8427e"
+  }
+}

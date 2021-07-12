@@ -1,0 +1,12 @@
+{
+  "id": "01DX6NGMW5HYN4JQQ52TDFVXR5",
+  "date": "2019-12-28T16:30:31.813Z",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "https://www.peoplesoftmods.com/"
+  },
+  "message": "Hello Saim.  Are you making a change to the PSM_QRCODE_SVG HTML object via App Designer?  There is a bug in App Designer where it re formats and corrupts large HTML objects.  You need to use the Branding Objects page in the PIA to overcome this issue.  I did a post that documents this issue here: https://www.peoplesoftmods.com/tips-and-tricks/managing-large-html-objects/\r\n\r\nYou should be able to use that page to edit the HTML object and bind in any information (Employee ID, etc.) into the generated QR code.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

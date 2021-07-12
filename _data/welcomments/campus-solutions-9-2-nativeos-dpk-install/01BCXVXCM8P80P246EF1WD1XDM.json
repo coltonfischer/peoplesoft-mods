@@ -1,0 +1,11 @@
+{
+  "id": "01BCXVXCM8P80P246EF1WD1XDM",
+  "date": "2017-04-05T04:33:25.000",
+  "author": {
+    "name": "Krishna Kishore"
+  },
+  "message": "No. This issue i am facing when i am specifying PS_CFG_HOME to different folder in psft_customizations.yaml file",
+  "migrated_fields": {
+    "email": "5d23cf5dcec03783439f88df15329b32"
+  }
+}

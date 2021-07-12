@@ -1,0 +1,11 @@
+{
+  "id": "01E7991P1G85WMT1SGG3FERX2Z",
+  "date": "2020-05-01T23:27:20.112Z",
+  "author": {
+    "name": "Pratiksha"
+  },
+  "message": "Hi Colton, \r\nThank you for sharing this valuable information. I am running in to this exact same issue. I tried to open the HTML object in App Designer, copied the script content and tried to create an HTML object thru PIA. I still get the line breaks. Is it because i copied the javascript from app designer HTML ? Is it possible to copy it from database table without getting the line breaks ? \r\nYour help is very much appreciated. \r\nThank you",
+  "migrated_fields": {
+    "email": "3ea6a5088da2c432f0b745465369b753"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "01BEQ6D360JCXVC0FKGFNV371G",
+  "date": "2017-04-27T10:53:28.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Jonathan!  That is a good point on making use of pre-made syntax definitions.  When I was doing some initial research on this, I found a <a href=\"http://workingscripts.com/2009/06/notepad-peoplecode-sqr/\" target=\"_blank\" rel=\"nofollow\">similar project for Notepad++</a>.  Hopefully I can make use of the syntax definitions in these projects.  \r\n\r\nI am still a little unsure on which JavaScript highlighter I should make use of.  It seems that the <a href=\"https://highlightjs.org/\" target=\"_blank\" rel=\"nofollow\">highlight.js library</a> is pretty popular, but I am unsure at this point how easy it is to use.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

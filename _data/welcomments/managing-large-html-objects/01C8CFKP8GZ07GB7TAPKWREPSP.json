@@ -1,0 +1,11 @@
+{
+  "id": "01C8CFKP8GZ07GB7TAPKWREPSP",
+  "date": "2018-03-12T08:50:50.000",
+  "author": {
+    "name": "shri"
+  },
+  "message": "Thanks for taking time to answer my questions.\r\n\r\nThanks for pointing out that AddJavaScript works on fluid pages. I will look at the posts you referred for Classic Components.\r\n\r\nUsing Meta HTML was neat. Although, it looks like there is restriction on amount of text returned by %ExplainMessage.",
+  "migrated_fields": {
+    "email": "f46df6b51a66390ac9cb07c8ca1455fa"
+  }
+}

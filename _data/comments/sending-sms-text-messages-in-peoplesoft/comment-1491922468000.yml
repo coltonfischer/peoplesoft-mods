@@ -1,5 +1,0 @@
-name: Rajesh
-date: '2017-04-11 14:54:28'
-url: ''
-message: "Hi Colton,\r\nI am getting below error while configuring the mobile message for 2 factor authentication. handler tester worked correctly. when i am providing option as cell phone , then code is triggering the service operation with error. \"Integration Gateway - External System Contact Error- Integration Gateway was not able to contact the external system.  The network location specified may be incorrect, or the site is permanently or temporarily down\"\r\n\r\nCan you please help me if you are aware of this issue.any help is appreciated.\r\n\r\nThanks,\r\nRajesh"
-email: 89058671d0fca90af1dab4b0f7495648

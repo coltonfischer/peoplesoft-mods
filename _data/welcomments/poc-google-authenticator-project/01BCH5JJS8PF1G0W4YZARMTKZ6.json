@@ -1,0 +1,12 @@
+{
+  "id": "01BCH5JJS8PF1G0W4YZARMTKZ6",
+  "date": "2017-03-31T06:12:09.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hi Sandeep,  I am not sure if I understand your question exactly.  End users have the ability to install the authenticator app on their device at anytime.  You can enforce some or all of your users to use the authenticator app to access your system.  You can enforce who, when, and where you want a user to have to use the authenticator app to access your system.  \n\nI am sorry if I did not answer your question, if you could provide more details that would be great.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

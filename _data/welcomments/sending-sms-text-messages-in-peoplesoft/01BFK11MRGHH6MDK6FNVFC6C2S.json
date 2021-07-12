@@ -1,0 +1,12 @@
+{
+  "id": "01BFK11MRGHH6MDK6FNVFC6C2S",
+  "date": "2017-05-08T06:18:34.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "This project uses document-based messages, therefore it contains some document objects.  The documents module is not available on older Tools releases (pre 8.53, I think).  So this project will not work if you are on an older Tools version.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

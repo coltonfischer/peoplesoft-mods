@@ -1,0 +1,12 @@
+{
+  "id": "01C6YTCBE0K8P92XER9QNMPGSA",
+  "date": "2018-02-22T15:14:00.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "The org/apache/commons/codec/binary/Base32 class existed in the delivered Java on the app server that I developed this solution in.  This was on an app server running Tools 8.55.  Which PeopleTools version are you running? Does the %PS_HOME%\\class\\ directory on the server contain all of the delivered JAR files?  If this directory has been altered to where the org/apache/commons/codec/binary/Base32 class was removed, then that could be why this is happening.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

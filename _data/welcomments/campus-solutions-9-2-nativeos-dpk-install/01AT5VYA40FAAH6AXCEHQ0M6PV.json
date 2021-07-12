@@ -1,0 +1,12 @@
+{
+  "id": "01AT5VYA40FAAH6AXCEHQ0M6PV",
+  "date": "2016-08-15T04:09:36.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "It sounds like one of your services did not start.  If you open up the Windows Services program, you can ensure that all of your services are in the \"started\" status.  It should look something like the fourth to last picture in the tutorial.  Please let me know which of your PeopleSoft-related services (if any) do not have the \"started\" status.",
+  "migrated_fields": {
+    "email": "a6e891dda374b48f99b3e42275161706"
+  }
+}

@@ -30,7 +30,7 @@ masthead_title           : # overrides the website title displayed in the masthe
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : welcomments # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2", "welcomments", "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -43,6 +43,8 @@ comments:
   utterances:
     theme                : # "github-light" (default), "github-dark"
     issue_term           : # "pathname" (default)
+  welcomments:
+    website_id: "<FILL THIS IN>"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
   branch                 : "master"

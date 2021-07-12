@@ -1,0 +1,11 @@
+{
+  "id": "01B3Y4WY6RAVKD933D55EH1JX2",
+  "date": "2016-12-14T09:49:11.000",
+  "author": {
+    "name": "Erik Volkman"
+  },
+  "message": "Does the sensitive data still exist in the DOM before it is exposed or is there a round trip to the Web/App Server to retrieve this information when the user requests it?",
+  "migrated_fields": {
+    "email": "dfb7f47671627f21829ee421066922e2"
+  }
+}

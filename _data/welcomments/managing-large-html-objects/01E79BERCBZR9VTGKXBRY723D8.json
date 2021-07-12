@@ -1,0 +1,12 @@
+{
+  "id": "01E79BERCBZR9VTGKXBRY723D8",
+  "date": "2020-05-02T00:09:25.643Z",
+  "author": {
+    "name": "Colton",
+    "website": "https://www.peoplesoftmods.com/"
+  },
+  "message": "Hi Pratiksha.  If the HTML Object was originally created or ever saved in App Designer, then the line breaks are most likely stored in the DB.  Your best bet is to recreate the HTML Object in the PIA and copy the JavaScript from the original source.  This assumes the original source is not App Designer.\r\n\r\nIf App Designer is only way you have to obtain the JavaScript, then you will have to manually remove the line breaks and then save it in the PIA.  I had to do this before and it is tedious process.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

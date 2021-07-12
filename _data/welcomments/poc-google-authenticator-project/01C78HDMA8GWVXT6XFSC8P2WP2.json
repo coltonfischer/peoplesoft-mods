@@ -1,0 +1,11 @@
+{
+  "id": "01C78HDMA8GWVXT6XFSC8P2WP2",
+  "date": "2018-02-26T09:49:49.000",
+  "author": {
+    "name": "Andrew Crawford"
+  },
+  "message": "Download link for the library.\r\nhttps://commons.apache.org/proper/commons-codec/download_codec.cgi\r\nThe library will need to be placed in the same CLASS folder as the project's jar file: (%PS_HOME%\\class\\)",
+  "migrated_fields": {
+    "email": "abd9bd1ff807d0434beaa7401cfd4a20"
+  }
+}

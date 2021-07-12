@@ -1,0 +1,12 @@
+{
+  "id": "01C8CRGX70E43Y9ZSP4B1RF4BD",
+  "date": "2018-03-12T11:26:36.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "I am glad that it is working for you.  There is a technique to display classic-style breadcrumbs when a Fluid theme is enabled.  You can check <a href=\"https://blogs.oracle.com/peopletools/fluid-header-and-navigation-is-the-new-standard\" target=\"_blank\" rel=\"nofollow\">Matthew Haavisto’s blog post on how to do this</a>.  Method 2 in the post may help solve your requirement.\n\nI have also demonstrated a similar technique on how to display breadcrumbs when you are using a Fluid theme.  You can check out <a href=\"http://www.peoplesoftmods.com/tips-and-tricks/where-in-the-fluid-am-i/\" target=\"_blank\">the post “Where in the Fluid Am I?”</a> to get the details on this.  In the post I demonstrate how a bookmarklet can be used to invoke the breadcrumb modal.  However, it is quite possible that you can use the System Branding Options to configure a script to fetch the breadcrumbs rather than having to use a bookmarklet.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

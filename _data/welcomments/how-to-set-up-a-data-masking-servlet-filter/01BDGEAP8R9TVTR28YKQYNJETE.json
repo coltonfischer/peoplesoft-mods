@@ -1,0 +1,11 @@
+{
+  "id": "01BDGEAP8R9TVTR28YKQYNJETE",
+  "date": "2017-04-12T09:41:35.000",
+  "author": {
+    "name": "Alex"
+  },
+  "message": "Hey Colton,\r\n\r\nExcellent blog post. I am working on implementing similar features into our peoplesoft environments. I would like to implement the \"click to view\" option for the national id as well. I found your youtube video explaining the functional side of it and the logging. Could you share the code for that as well?\r\n\r\nThanks,",
+  "migrated_fields": {
+    "email": "e3c4328e5ec4e2cac7470cac6ded7161"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "01C96NRB088RNPVXQTVRXH2QJ4",
+  "date": "2018-03-22T12:58:29.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hello Yong.  The first Signon PeopleCode entry is the delivered function for enforcing password controls.\n\nRecord: FUNCLIB_PWDCNTL\nField: PWDCNTL\nEvent: FieldChange\nFunction: Password_Controls",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

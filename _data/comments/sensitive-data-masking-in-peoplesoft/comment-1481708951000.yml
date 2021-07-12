@@ -1,8 +1,0 @@
-name: Erik Volkman
-date: '2016-12-14 09:49:11'
-url: ''
-message: >-
-  Does the sensitive data still exist in the DOM before it is exposed or is
-  there a round trip to the Web/App Server to retrieve this information when the
-  user requests it?
-email: dfb7f47671627f21829ee421066922e2

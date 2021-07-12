@@ -1,7 +1,0 @@
-_id: 94646580-ee51-11e9-9800-0d2e7931419d
-message: "Hi I am trying to invoke my RESP API using ConnectorRequest. Its working as expected for Httpstatus codes 200. But for 400 and 500, I am getting the below issue and response is blank..\r\n\r\nIntegration Gateway - HttpTargetConnector:ExternalApplicationException.  Http status code HttpStatusCode returned : 400. (158,10623)"
-name: Raju Dola
-email: 88b31071daadfc38661f8ee73517c179
-url: ''
-hidden: ''
-date: '2019-10-14T07:09:36.370Z'

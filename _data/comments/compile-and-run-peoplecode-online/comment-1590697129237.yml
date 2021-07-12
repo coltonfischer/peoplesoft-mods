@@ -1,8 +1,0 @@
-_id: 70bbc240-a120-11ea-a64d-b31162e09466
-_parent: 'https://www.peoplesoftmods.com/utilities/compile-and-run-peoplecode-online/'
-message: "Yes, the UpdateProgram method can be used to simulate the App Designer “Validate Syntax” function.  The Boolean result from this method should tell you if the PeopleCode syntax that you are trying to save to the PeopleCode program is valid or not.\r\n\r\nThe first parameter to this method is the PeopleCode program String that you want to save (validate in your case) to the PeopleCode program definition.  The second, third, and fourth parameters are output variables as types String, Integer, Integer respectively.  For these output variable parameters, you simply pass blank variables to the method and they will be populated with values after the call to the method is made if the PeopleCode syntax is invalid.  The second parameter will hold the error text, while the third and fourth will hold the start and end position of where the error occurred in the passed in PeopleCode String.  \r\n\r\nCheck out [this part]( https://youtu.be/99JV-53VFkQ?t=127) of the Online PeopleCode Editor video demo to see the “Validate Syntax”  functionality in action.  You can download and install the [Online PeopleCode Editor project from GitHub](https://github.com/coltonfischer/ps-web-ide) if you are interested in seeing other neat features of the %Metadata API in action."
-name: Colton
-email: 4d496aa46c2247876cdd9588b8128ea0
-url: 'https://www.peoplesoftmods.com/'
-hidden: ''
-date: '2020-05-28T20:18:49.236Z'

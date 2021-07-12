@@ -1,0 +1,11 @@
+{
+  "id": "01BKWA7CZ8T3NSNBCJ1PKVFYZY",
+  "date": "2017-06-30T13:54:57.000",
+  "author": {
+    "name": "Cory"
+  },
+  "message": "Very helpful!  I did find that the breadcrumbs don't generate if you are going from a fluid homepage, clicking on a tile, then going to a component. It only generates as you navigate from the Root of the menu.  Would be cool to have that auto-generate the menu of where the underlying component in the Tile resides.  Anyway, thank you for sharing this!",
+  "migrated_fields": {
+    "email": "e5400a5aebcbe4bc44372d0c89043878"
+  }
+}

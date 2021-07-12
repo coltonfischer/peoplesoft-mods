@@ -1,0 +1,12 @@
+{
+  "id": "01C9RW8BF80T0T4FHQAPX1H7Z1",
+  "date": "2018-03-29T15:38:25.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Both of the methods should be available in 8.55.17.  Which method are you using when receiving a response of 0, the ProvideRestTest method or the ConnectorRequest method?",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}

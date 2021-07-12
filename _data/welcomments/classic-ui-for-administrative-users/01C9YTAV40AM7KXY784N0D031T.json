@@ -1,0 +1,11 @@
+{
+  "id": "01C9YTAV40AM7KXY784N0D031T",
+  "date": "2018-03-31T23:00:16.000",
+  "author": {
+    "name": "Mamuka Khantadze"
+  },
+  "message": "Hi. I have a feeling that the answer to my question below will most likely be 'YES' but I'll ask it anyway: Can the same approach be taken to implement reverse functionality that disable the fluid for everyone but enable only for specific role? Basically, what I'm trying to accomplish is to roll out fluid in phases to select few users only. After those users have been trained and are ready to adopt the fluid UI, they'll be added to the role 'Fluid_User' and from thereon they'll use fluid UI while rest will still be on classic.\r\n\r\nWe have set the default option for HPPC to Classic and defined our Branding System Options&gt;Default Branding Theme to Default_Theme_Swan, Theme Style Type to Swan (PT8.52 default), Default Style Sheet Name to PSSTYLEDEF_SWAN and idea would be to override these to fluid for 'Fluid_User' role members. \r\n\r\nI wonder what would be fluid value of The URL parameter HPTYPE instead of the value of “C”. Is it \"F\"?",
+  "migrated_fields": {
+    "email": "0734a86373e65759bf07ff96f6c3a801"
+  }
+}

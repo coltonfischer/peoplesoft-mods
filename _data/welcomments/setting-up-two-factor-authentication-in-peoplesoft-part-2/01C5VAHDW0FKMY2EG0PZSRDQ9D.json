@@ -1,0 +1,11 @@
+{
+  "id": "01C5VAHDW0FKMY2EG0PZSRDQ9D",
+  "date": "2018-02-08T20:23:44.000",
+  "author": {
+    "name": "Kim O'Connor"
+  },
+  "message": "Hey Colton,  I actually sent a message earlier and I found some information basically answering that message.  I also see a post in the stream from my colleague AB Krishna.  It is appears that he may have a different question.     But I see that the companies using 8.55 tools are experiencing a similar problem that we noticed;  which is, if a user has successfully logged into the PSoft login page and gets redirected to the 2FA page they are able to paste a URL up in the browser and get out of the 2FA page.   I am curious as to whether or not it will make a difference if the pages we use for self-service are only classic or classic plus pages.  Will this prevent someone from getting too far into the application.  We are using the Fluid Homepage but maybe if the other permissions are for classic pages maybe that is all the further they could get if they try to bypass.    Just wondering if you have seen any other results or if you have come up with anyways to block it.    We are on 8.56.01",
+  "migrated_fields": {
+    "email": "16d0fb0ffa03b7a5fc763723ee044e4e"
+  }
+}

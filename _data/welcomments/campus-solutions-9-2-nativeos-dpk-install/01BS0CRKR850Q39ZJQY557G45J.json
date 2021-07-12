@@ -1,0 +1,12 @@
+{
+  "id": "01BS0CRKR850Q39ZJQY557G45J",
+  "date": "2017-09-02T07:14:45.000",
+  "author": {
+    "name": "Colton Fischer",
+    "website": "http://www.peoplesoftmods.com"
+  },
+  "message": "Hey Ravi.  This issue sounds awfully familiar to me.  I recently deployed the latest Campus Solutions PUM Image to an AWS machine and experienced your exact symptoms.\r\n\r\nI remember when I would try to modify the value in the listener.ora, then it would just get overwritten back to the value that was making the listen not start when I would re run the script.  If I recall correctly, all I had to do was modify my hosts file (C:\\Windows\\System32\\drivers\\etc\\hosts).  This is what my hosts file looks like at the moment:\r\n\r\n127.0.0.1       localhost\r\n::1             localhost\r\n127.0.0.1\tmyhost.us-west-2.compute.internal\r\n\r\nYou said that you already tried updating your hosts.  Is this what your hosts file looks like?  If this does not solve your problem, then I am unsure of what is causing your issue.",
+  "migrated_fields": {
+    "email": "4d496aa46c2247876cdd9588b8128ea0"
+  }
+}
