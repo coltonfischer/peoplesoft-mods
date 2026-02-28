@@ -1,0 +1,5 @@
+name: David Gaff
+date: '2017-06-22 07:22:54'
+url: ''
+message: "Typically you don't want to encourage users to mess with the Search keys in the URL in case they see data they shouldn't. \r\n\r\nComponents for use from the internet (or any insecure space) should have PSLOCK (or another record with no Search Keys) as the Search Record, and the component should determine what data to show them based on their User ID or a passed value. If this isn't possible - and Row Security isn't an option for your component - you can use a hash calculation and send that as a parameter on the URL.\r\n\r\nSo your page that gives the user a link or button calculates a hash of the wanted search keys (and some other secret), includes it on the URL or in a variable. The target component looks for that hash, calculates the same thing, and if they don't match bounce the user out."
+email: 44d76b80e24645d7d86f9e1b9e95b075

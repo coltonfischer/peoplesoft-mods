@@ -1,0 +1,16 @@
+name: Colton Fischer
+date: '2018-02-16 07:33:03'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  I have not experienced event mapping code not getting invoked on Components
+  with search records.  The only issue I ever experienced with event mapping
+  code not firing was due to the bug described in My Oracle Support Doc ID
+  2171391.1, but this bug was fixed in PeopleTools 8.55.11.  Sasank did a great
+  write up of this bug on his blog here:
+  https://pe0ples0ft.blogspot.com/2016/10/emf-hello-world-and-quirks.html.
+
+
+  You may be experience this bug if you are on a dot release before 8.55.11.  If
+  you are on 8.55.11+, then I would suggest opening a case with My Oracle
+  Support and hopefully they can help you out.
+email: 4d496aa46c2247876cdd9588b8128ea0

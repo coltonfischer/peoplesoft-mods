@@ -1,0 +1,5 @@
+name: Ashok Rangineni
+date: '2017-08-09 22:54:35'
+url: ''
+message: "I am trying to read AppEngine Peoplecode by applying below key constrains but I am getting error  'First operand of . is NULL, so cannot access member GetProgram. (180,236)' while retrieving  peoplecode string  using GetProgram(). Is there anything i'm missing. Please help me out on this.\r\n\r\n&amp;oKey.AddItem(Key:Class_AEApplicationId, \"ZZ_VND_CV_AE\");\r\n&amp;oKey.AddItem(Key:Class_AESection, \"STLODPRS\");\r\n&amp;oKey.AddItem(Key:Class_AEStep, \"Step01\");\r\n&amp;oKey.AddItem(Key:Class_Method, \"OnExecute\");\r\nLocal %metadata:PeopleCodeProgram:PeopleCodeProgram_Manager &amp;oManager = create %metadata:PeopleCodeProgram:PeopleCodeProgram_Manager();\r\nLocal %metadata:PeopleCodeProgram:PeopleCodeProgram &amp;oPeopleCodeProgram = &amp;oManager.GetDefn(&amp;oKey);\r\nLocal string &amp;sProgram = &amp;oPeopleCodeProgram.GetProgram();"
+email: 620ceaa4341bc09abb8c943baeb8b4e5

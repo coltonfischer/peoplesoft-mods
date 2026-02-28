@@ -1,0 +1,9 @@
+name: Colton Fischer
+date: '2017-02-21 07:14:37'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  I ran into this issue as well.  You will need to navigate to: PeopleTools ->
+  Utilities -> Administration-> PeopleTools Options.  On this page you will need
+  to change the "Base Time Zone" field to the correct timezone. I do not believe
+  that this requires an app bounce, so the change should work immediately.
+email: 4d496aa46c2247876cdd9588b8128ea0

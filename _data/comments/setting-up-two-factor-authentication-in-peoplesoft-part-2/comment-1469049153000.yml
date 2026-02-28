@@ -1,0 +1,9 @@
+name: Garth
+date: '2016-07-20 21:12:33'
+url: ''
+message: >-
+  Once you've issued setauthenticationresult true, the user is authenticated,
+  even if you redirect them to a custom page.  At that point they can manually
+  modify url in browser to go to another page, bypassing your 2fa.  Or am I
+  missing something?
+email: d41d8cd98f00b204e9800998ecf8427e

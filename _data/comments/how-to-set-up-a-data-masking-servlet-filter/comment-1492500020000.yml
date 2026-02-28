@@ -1,0 +1,41 @@
+name: Colton Fischer
+date: '2017-04-18 07:20:20'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  Hi Alex. I am glad that you are interested in implementing this type of
+  solution.  I plan on doing a post in the near future that explains and
+  provides code samples for advanced servlet filter data masking techniques. 
+  The solution that I demonstrated in the video you are referring to has a lot
+  of moving parts to achieve all of the functionality and I would like to write
+  a post to thoroughly go over all of the pieces.  However, the two main pieces
+  for the "Click to View" functionality is client side script injection and
+  encryption-based data obfuscation.  
+
+
+  In order for a user to be able to click a link, you must provide them the link
+  to click (client side script injection).  In order for a click event to be
+  able to view a piece of masked data, then you must be able to reverse the mask
+  (encryption/decryption).  In a future post, I will explain how these pieces
+  work and fit together to create a robust data masking solution.  
+
+
+  However, I would like to point out that the solution presented in this post
+  cannot easily accommodate for the "Click to View" functionality.  The main
+  reason why this solution cannot accommodate for "Click to View" functionality
+  is because we are throwing away to data as we mask it by replacing the SSN
+  with X's.  This means that we cannot possibly revert back to the original
+  unmasked data.  Another caveat with this solution is that it is data-format
+  dependent.  The filter only discovers and masks values that look like Social
+  Security Numbers.  
+
+
+  To create a better data masking servlet filter for PeopleSoft, the filter must
+  be PeopleSoft-aware.  So instead of the filter detecting data to be masked
+  based on the format of the data, the filter needs to have the knowledge of how
+  PeopleSoft displays data to the end-user.  The filter having this knowledge is
+  what will allow it to be able to mask any type of data and not just SSNs.
+
+
+  This is probably confusing and not what you wanted to hear, but I will be able
+  to explain this better in a future post.
+email: 4d496aa46c2247876cdd9588b8128ea0

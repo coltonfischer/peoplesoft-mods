@@ -1,0 +1,5 @@
+name: Raghu
+date: '2016-09-26 08:48:40'
+url: ''
+message: "Hello Colton\r\n\r\nI am trying to install PS 9.2 HCM Image 18 on a Windows 10 Dell Laptop which has 8 GB Ram and 500 GB+ space.\r\n\r\nI tried first to install with Virtual Box option, and the VM import hangs at a step - Importing DPK files ......(i see that all the relevant files getting downloaded during this step) ....but there is no movement at all...... Any Idea, what could be going wrong?\r\n\r\nI also tried with the Native O/S option as you described in your blog .....however the steps failed at  building PS Database. I believe the Database was not created properly (i see a control file missing) and through the Powershell script trace  it says that , TNS adapter error. I have checked to start database using SQL, it says that error encountered at Control File ..... So now I am stuck here as well.  Any idea , how to create a control file or go back to the create DB step in the Power Shell step ?  \r\n\r\nWould appreciate your response on both of this issue ...."
+email: 93b1232b11102d02dde14f4a7d6e13c7

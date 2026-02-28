@@ -1,0 +1,8 @@
+_id: e7e42a50-8dad-11ea-87f4-895cbf4d1879
+_parent: 'https://www.peoplesoftmods.com/tips-and-tricks/managing-large-html-objects/'
+message: "Thank you for taking time to respond to my question.\r\nApp Designer was my only way to obtain the JavaScript. Since the script was way too long to manually remove the line breaks, I kept looking for another way of doing that. After experimenting for hours, i am glad to share that i found a way.  These script content was saved in PSCONTENT table as HUGEBLOB. My script was saved in multiple rows of the table. Using TOAD, i was able to export out the HUGEBLOB field CONTDATA in to a text file. I updated the text file with my changes and again using TOAD, i was able to upload this to database. Doing this didn't insert line breaks."
+name: Pratiksha
+email: 3ea6a5088da2c432f0b745465369b753
+url: ''
+hidden: ''
+date: '2020-05-04T02:21:04.930Z'

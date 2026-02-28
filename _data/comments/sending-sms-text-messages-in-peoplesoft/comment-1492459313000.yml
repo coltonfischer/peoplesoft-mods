@@ -1,0 +1,5 @@
+name: Rajesh Reddy Eaga
+date: '2017-04-17 20:01:53'
+url: ''
+message: "Hi  Colton , yes i am getting this issue in the standalone while implementing in two factor authentication. I have called the method under the button as\r\n\r\n&amp;obj.SendcodetoMobile;\r\n\r\nnow in the app package, i have written method as \r\n\r\nmethod sendcodetomobile()\r\n/Used the sample code of yours and tweaked it. I have provided the cell phone and code string hardcoded./\r\nend-method;\r\n\r\nI am bit confused of what i am missing in this?\r\nThanks for all your help"
+email: 89058671d0fca90af1dab4b0f7495648

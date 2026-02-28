@@ -1,0 +1,5 @@
+name: sree
+date: '2017-04-19 10:12:08'
+url: ''
+message: "Hi Cotton,\r\nI followed the steps you mentioned.\r\nI am getting the below error while creating the node.\r\nIntegration Gateway ID\tConnector ID\tConnector URL\tMessage Text\r\nLOCAL\r\nHTTPTARGET\r\nhttps://rest.nexmo.com/sms/json\r\nIntegration Gateway - External System Contact Error (158,10721)"
+email: fe6acb3ecad2906b1f8d0ef946817b46

@@ -1,0 +1,10 @@
+name: Colton Fischer
+date: '2016-08-15 04:09:36'
+url: 'http://www.peoplesoftmods.com'
+message: >-
+  It sounds like one of your services did not start.  If you open up the Windows
+  Services program, you can ensure that all of your services are in the
+  "started" status.  It should look something like the fourth to last picture in
+  the tutorial.  Please let me know which of your PeopleSoft-related services
+  (if any) do not have the "started" status.
+email: a6e891dda374b48f99b3e42275161706

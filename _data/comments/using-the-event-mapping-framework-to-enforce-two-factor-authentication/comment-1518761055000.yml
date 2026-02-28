@@ -1,0 +1,10 @@
+name: Naveena
+date: '2018-02-16 06:04:15'
+url: ''
+message: >-
+  Hi Colton, event mapping works like a champ in "Change Password" page and
+  other pages which has no search record involved in the component. However the
+  components with search record doesn't invoke two factor Authentication app
+  package. Basically the event mapping doesn't work for such components. Any
+  idea about this?
+email: 3285aa8ba7db0aaa7b3b5f6239387a51

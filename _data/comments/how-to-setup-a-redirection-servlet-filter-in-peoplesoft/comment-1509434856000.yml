@@ -1,0 +1,5 @@
+name: AB Krishna
+date: '2017-10-31 07:27:36'
+url: 'https://towerinternational.com/'
+message: "Hello Colton, I appreciate for the excellent blog with wealth of information that is helping me to understand new techniques and how to apply them for some of our problems. Thanks for sharing the projects  \r\nWe have a scenario where self-service user is presented a custom user profile page after the 2FA is done; they need to complete all sections of the page before they access any other pages in the system. I am wondering we can use the same solution you provided here (to have a token, that can be programmatically set after the user completes the form otherwise it brings them back to this a custom user profile page – Does this approach looks OK ?"
+email: b51d0cc98f70f53d97a6e99114f10592
